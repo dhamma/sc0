@@ -188,12 +188,14 @@ H.i=tag=>{
 	if (attrs&&attrs.class&&attrs.class=='term') {
 		//console.log("i",snippet,snippet.indexOf("˚")>-1)
 		const expand=snippet.indexOf("˚")>-1 && snippet.indexOf("-")==-1;
+		/*  too many wordhead reduce precision of compound break up
 		if (expand){
 			linetext=linetext.substr(0,linetext.length-snippet.length);
 			compound=makecompound(snippet);
 			linetext+=snippet;
 			const regex=new RegExp("(["+palialpha+"]+)",'gi');
 			const expandword=compound.split(regex);
+			
 			for (w of expandword){
 				if (isPaliword(w)){
 					addheadword(w.toLowerCase());
@@ -206,6 +208,7 @@ H.i=tag=>{
 				addheadword(curword+snippet); // snippet has no defination
 			}
 		}
+		*/
 		linetext+="]";
 	}
 }
