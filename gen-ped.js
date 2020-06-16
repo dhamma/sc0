@@ -1,6 +1,6 @@
 const fs=require("fs");
 const Sax=require("sax");
-const {palialpha,isPaliword}=require("dengine")
+const {palialpha,isPaliword}=require("pengine")
 
 let failed=0,passed=0;
 const assert=(a,b,testname)=>{
@@ -187,7 +187,7 @@ H.i=tag=>{
 	const attrs=tag.attributes;
 	if (attrs&&attrs.class&&attrs.class=='term') {
 		//console.log("i",snippet,snippet.indexOf("˚")>-1)
-		const expand=snippet.indexOf("˚")>-1;
+		const expand=snippet.indexOf("˚")>-1 && snippet.indexOf("-")==-1;
 		if (expand){
 			linetext=linetext.substr(0,linetext.length-snippet.length);
 			compound=makecompound(snippet);
