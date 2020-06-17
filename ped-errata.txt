@@ -1,0 +1,29 @@
+﻿"anusaya"
+<span class='ref'>Sn.14</span> = 369, 545;
+==>
+<span class='ref'>Snp.14</span> = <span class='ref'>Snp.369</span>, <span class='ref'>Snp.545</span>;
+
+
+"word": "patthīna",
+<span class='ref'>Vism262</span>  ==> <span class='ref'>Vism.262</span> 
+
+"word": "pharaṇa",
+<span class='ref'>Dhs-a166</span>  ==><span class='ref'>Dhs-a.166</span>
+
+"word": "kusala",
+(pl.) good thoughts <span class='ref'>Vb.169</span>–<span class='ref'>Vb.173</span>, <span class='ref'>Vb.184</span>, <span class='ref'>Vb.285</span> sq. <span class='ref'>294</span>
+==><span class='ref'>Vb.294</span>
+
+"word": "icchā",
+ <span class='ref'>AN.iv.325</span> sq.; <span class='ref'>v.40</span>, <span class='ref'>v.42</span> sq.;
+==> <span class='ref'>AN.v.40</span>, <span class='ref'>AN.v.42</span> sq.;
+
+"word": "adhimana", "word": "ayira", "word": "ayyira", 
+<span class='ref'>n-adj.</span> <span class='ref'>n.</span>
+ref ==> case
+
+"word": "kaṭāha", (should be uppercase )
+<span class='ref'>vin.ii.114</span> ==> <span class='ref'>Vin.ii.114</span>
+
+"word": "roga",  ( PTS printed version error , "icchā, anasanaṃ, jarā" not found in SN, only in Snp)
+<span class='ref'>sn.311</span>  ==> <span class='ref'>snp.311</span>
