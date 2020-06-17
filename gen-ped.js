@@ -213,7 +213,8 @@ H.i=tag=>{
 			if (snippet!==curword){
 				const arr=snippet.split(/ +/);
 				for (w of arr){
-					if (isPaliword(w)) addheadword(w+"@"+curword);
+					if (isPaliword(w) && w.toLowerCase()!=curword)
+					  addheadword(w.toLowerCase()+"@"+curword);
 				}
 			}
 		}
