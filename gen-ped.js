@@ -188,27 +188,36 @@ H.i=tag=>{
 	if (attrs&&attrs.class&&attrs.class=='term') {
 		//console.log("i",snippet,snippet.indexOf("˚")>-1)
 		const expand=snippet.indexOf("˚")>-1 && snippet.indexOf("-")==-1;
-		/*  too many wordhead reduce precision of compound break up
+	
 		if (expand){
 			linetext=linetext.substr(0,linetext.length-snippet.length);
-			compound=makecompound(snippet);
+			//compound=makecompound(snippet);
 			linetext+=snippet;
+			
 			const regex=new RegExp("(["+palialpha+"]+)",'gi');
-			const expandword=compound.split(regex);
+			const expandword=snippet.split(regex);
 			
 			for (w of expandword){
-				if (isPaliword(w)){
-					addheadword(w.toLowerCase());
+				if (isPaliword(w)&& w.toLowerCase()!==curword){
+					addheadword(w.toLowerCase()+"+@"+curword);
 				}
 			}
 		} else if (snippet[0]=='-' && !newcompound) {
 			//not enclosed by <a> , around 3000+ 
 			//eg ghara-kapoṭa
 			if (isPaliword(snippet.substr(1))) {
-				addheadword(curword+snippet); // snippet has no defination
+				//@ make it after master headword
+				addheadword(curword+'+'+snippet); // snippet has no defination
+			}
+		} else {
+			if (snippet!==curword){
+				const arr=snippet.split(/ +/);
+				for (w of arr){
+					if (isPaliword(w)) addheadword(w+"@"+curword);
+				}
 			}
 		}
-		*/
+		
 		linetext+="]";
 	}
 }
@@ -228,7 +237,7 @@ H.dt=tag=>{
 		pagestart=rawtext.length;
 	}
 	addheadword(curword);
-	if (curword=="ghara") debugger
+
 	rawtext.push(":"+(entrycount+1)+"-"+linetext);
 	entrycount++;
 	prevalpha=alpha;
