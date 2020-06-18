@@ -1,6 +1,7 @@
 const fs=require("fs");
 const Sax=require("sax");
 const {palialpha,isPaliword}=require("pengine")
+const extraheadword=require("./extraheadword");
 
 let failed=0,passed=0;
 const assert=(a,b,testname)=>{
@@ -296,7 +297,14 @@ parsetext=text=>{
 const highfreq=[]
 addheadword=w=>{
 	headword.push([w,rawtext.length]);
+
+	const ex=extraheadword[w];
+	if (ex) {
+		headword.push([ex,rawtext.length]);
+		delete extraheadword[w]
+	}
 }
+
 dofile=()=>{
 	const pts=JSON.parse(fs.readFileSync("./pts.json","utf8"));
 	const MAXWORD=pts.length
