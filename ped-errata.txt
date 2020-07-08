@@ -1,4 +1,10 @@
-﻿"anusaya"
+﻿"suci"
+
+— -mhita having a pleasant, serene smile Vv.18#10 ; Vv.50#25 ; Vv.64#12 ;
+
+Vv.18#10 ==> Vv.18#11
+
+"anusaya"
 <span class='ref'>Sn.14</span> = 369, 545;
 ==>
 <span class='ref'>Snp.14</span> = <span class='ref'>Snp.369</span>, <span class='ref'>Snp.545</span>;

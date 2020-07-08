@@ -34,16 +34,15 @@ build=(payload,extra)=>{
 				if (MAXWORD>0 && pagecount>MAXWORD) {
 					break;
 				}
-				builder.addpage(prevpage);
-				prevpage=parseInt(line.substr(1));
+				const pagenum=parseInt(line.substr(1));;
+				builder.newpage(pagenum,0,prevbk);
 
-				builder.addline("㊔"+line.substr( prevpage.toString().length +1));
+				builder.addline("㊔"+line.substr( pagenum.length +1));
 			}
 			continue
 		}
 		builder.addline(line);
 	}
-	builder.addpage();
 	builder.addbook(prevbk);
 	builder.done(payload,extra);
 	console.log("done")
