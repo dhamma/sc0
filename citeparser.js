@@ -7,7 +7,7 @@ const bookVolPage=(m,book,roman,page)=>{
 	book=book.toLowerCase().replace("pts","ps");
 	const bk=book.indexOf("-")>0?book.replace("-",v):book+v;
 	//PTS jataka is cs jataka att  j6 ==> j6a
-	return bk+((book=="j")?"a":"")+","+page;
+	return bk+","+page;
 }
 const bookPage=(m,book,page)=>{
 	const bk=book.toLowerCase()
@@ -28,7 +28,7 @@ const bookVaggaVatthuGatha=(m,book,vagga,vatthu,gatha)=>{
 const patterns=[
 	[/^(V)in\.([iv]{1,3})\.(\d+)/	, bookVolPage],
 	[/^([DMSA])N\.([i]{1,3})\.(\d+)/, bookVolPage],
-	[/^(J)a\.([iv]{1,3})\.(\d+)/	, bookVolPage],
+	[/^(Ja)\.([iv]{1,3})\.(\d+)/	, bookVolPage],
 	[/^(Dhp-a|Pts|Dhp-a)\.([iv]{1,3})\.(\d+)/	,bookVolPage],
 
 	[/^(Dhp-a|Pts|Dhp-a)\.([iv]{1,3})\.(\d+)/	,bookVolPage],

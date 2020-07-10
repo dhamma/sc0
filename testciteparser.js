@@ -15,7 +15,6 @@ const assert=(a,b,testname)=>{
 
 const testdata=[
 	['Vin.i.188'	,'v1,188'	],
-	['Ja.vi.537'	,'j6a,537'	],
 	['DN.i.51'		,'d1,51'	],
 	['MN.ii.133'	,'m2,133'	],
 	['SN.ii.90'		,'s2,90'	],
@@ -28,6 +27,8 @@ const testdata=[
 	['Vb-a.175'		,'vb0a,175'	],
 	['Pp.18'		,'pp,18'	],
 	['Pp-a.225'		,'pp0a,225'	],
+
+	['Ja.vi.537'	,'ja6,537'	], //will change to att in ptsvolpg
 
 	['Dhp.294'		,'dhp_294'	],
 	['Dhp-a.iii.175','dhp3a,175'],
