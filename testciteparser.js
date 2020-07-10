@@ -15,7 +15,7 @@ const assert=(a,b,testname)=>{
 
 const testdata=[
 	['Vin.i.188'	,'v1,188'	],
-	['Ja.vi.537'	,'j6,537'	],
+	['Ja.vi.537'	,'j6a,537'	],
 	['DN.i.51'		,'d1,51'	],
 	['MN.ii.133'	,'m2,133'	],
 	['SN.ii.90'		,'s2,90'	],

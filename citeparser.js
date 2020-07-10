@@ -4,10 +4,10 @@ const {parseRoman}=require("pengine");
 
 const bookVolPage=(m,book,roman,page)=>{
 	const v=parseRoman(roman);
-	book=book.toLowerCase().replace("pts","ps")
+	book=book.toLowerCase().replace("pts","ps");
 	const bk=book.indexOf("-")>0?book.replace("-",v):book+v;
-
-	return bk+","+page;
+	//PTS jataka is cs jataka att  j6 ==> j6a
+	return bk+((book=="j")?"a":"")+","+page;
 }
 const bookPage=(m,book,page)=>{
 	const bk=book.toLowerCase()
