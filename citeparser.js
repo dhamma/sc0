@@ -27,7 +27,7 @@ const bookVaggaVatthuGatha=(m,book,vagga,vatthu,gatha)=>{
 }
 const patterns=[
 	[/^(V)in\.([iv]{1,3})\.(\d+)/	, bookVolPage],
-	[/^([DMSA])N\.([i]{1,3})\.(\d+)/, bookVolPage],
+	[/^([DMSA])N\.([iv]{1,3})\.(\d+)/,bookVolPage],
 	[/^(Ja)\.([iv]{1,3})\.(\d+)/	, bookVolPage],
 	[/^(Dhp-a|Pts|Dhp-a)\.([iv]{1,3})\.(\d+)/	,bookVolPage],
 
@@ -46,6 +46,7 @@ const patterns=[
 	[/^Dhp\.(\d+)/,"dhp_$1"],
 	[/^Vv\.(\d+)#(\d+)/,"vv$1.$2"],
 	[/^Dhs\.(\d+)/,"ds_$1g3"],
+	[/^Vism\.(\d+)/,"vism_$1"],
 	[/^Th([ai])g\.(\d+)/,"th$1g_$2"],
 ]
 const parsePEDCite=cite=>{
