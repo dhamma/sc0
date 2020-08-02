@@ -4,7 +4,7 @@ const bilara_folder='../bilara-data/';
 const folder=bilara_folder+'translation/en/sujato/sutta/';
 const comfolder=bilara_folder+'comment/en/sujato/sutta/';
 const reffolder=bilara_folder+'/reference/pli/ms/sutta/';
-const nikaya={'dn':false};//,'mn':false,'sn':true,'an':true};
+const nikaya={'dn':false,'mn':false,'sn':true,'an':true};
 
 const booknames={
 	dn:{1:'dn1',14:'dn2',24:'dn3'},
@@ -40,10 +40,16 @@ const writefile=(bookname,content,comments,refs)=>{
 		const id=arr[0], text=arr[1];
 		let prefix='';
 		if (refs[id] && refs[id].indexOf("msdiv")>-1){
-			prefix=refs[id].match(/msdiv(\d+)/)[1]+"|";
+			let paranum=refs[id].match(/msdiv(\d+)/)[1];
+			if (id=="an1.171:1.1" && paranum=="17") { //report to sc issue bilara-data#220
+				paranum="171";
+			}
+			prefix=paranum+"|";
 		}
 		return prefix+text+(comments[id]?"|||"+comments[id]:"");
-	});
+	}).filter(item=>item);
+
+
 
 	console.log("write ",bookname+".txt length",output.length);
 	if (writetodisk) fs.writeFileSync('books/'+bookname+'.txt',output.join("\n"),'utf8');
@@ -70,43 +76,45 @@ const loaddir=(filenames,bk,folder,comments,refs,multibook)=>{
 	if (multibook) writefile(bookname,bookcontent,comments,refs);
 	return bookcontent
 }
+
 const genbook=(folder)=>{
 	for (let ni in nikaya) {
 		const files=fs.readdirSync(folder+ni);
 		const comment_files=fs.readdirSync(comfolder+ni);
 		const reference_files=fs.readdirSync(reffolder+ni);
 		const subfolder=nikaya[ni];
-		let bookcontent='';
+		let bookcontent='',comments,references;
 		if (subfolder) {
 			sortFilenames(files);
 			let bookname='';
 			files.forEach(sub=>{
 				const fo=ni+'/'+sub+'/';
 				const subfiles=fs.readdirSync(folder+fo);
-				const comfiles=fs.readdirSync(comfolder+fo);
+				const comfiles=fs.existsSync(comfolder+fo)&&fs.readdirSync(comfolder+fo);
 				const reffiles=fs.readdirSync(reffolder+fo);
+				comments=comfiles?JSON.parse(loaddir(comfiles,ni,comfolder+fo).replace(/\}\{/g,",")):{};
+				references=JSON.parse(loaddir(reffiles,ni,reffolder+fo).replace(/\}\{/g,","));
+				
 				const bkn=sub.match(/\d+/)[0];
 
 				if (booknames[ni]&&booknames[ni][bkn]) {
 					if (bookname&&bookname!==booknames[ni][bkn]) {
-						writefile(bookname,bookcontent);
+						writefile(bookname,bookcontent,comments,references);
 						bookcontent='';
 					}
 					bookname=booknames[ni][bkn];
 				}
-				const comments=JSON.parse(loaddir(comfiles,ni,comfolder+fo).replace(/\}\{/g,","));
-				const references=JSON.parse(loaddir(reffiles,ni,reffolder+fo).replace(/\}\{/g,","));
 				bookcontent+=loaddir(subfiles,sub,folder+fo,comments);
+
 				if (!bookname) {
 					writefile(sub,bookcontent,comments,references);
 					bookcontent='';
 				}
 			});
-			if (bookname) writefile(bookname,bookcontent);
+			if (bookname) writefile(bookname,bookcontent,comments,references);
 		} else {
 			const comments=JSON.parse(loaddir(comment_files,ni,comfolder+ni+'/').replace(/\}\{/g,","));
 			const references=JSON.parse(loaddir(reference_files,ni,reffolder+ni+'/').replace(/\}\{/g,","));
-			
 			loaddir(files,ni,folder+ni+'/',comments,references,true);
 		}
 		
