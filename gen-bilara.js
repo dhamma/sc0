@@ -32,30 +32,58 @@ const json2txt=json=>{
 	return json.trim();
 }
 const writetodisk=true;
-const writefile=(bookname,content,comments,refs)=>{
-	const lines=json2txt(content).split(/\r?\n/);
 
+var lastparanum=0;
+const knowngap={
+	'an4.107:1.1':true, // VRI missing an4.106
+	'sn23.26:1.1':true,
+	'sn45.171:1.1':true,
+	'sn48.115-124:1.1':true,'sn48.169-178:1.1':true,'sn49.23-34:1.1':true,
+'sn50.45-54:1.1':true,'sn50.89-98:1.1':true,'sn51.77-86:1.1':true,'sn53.45-54:1.1':true,
+}
+const dobook=(bookcontent,comments,refs)=>{
+	const lines=json2txt(bookcontent).split(/\r?\n/);
+	
 	const output=lines.map(line=>{
 		const arr=line.split("|");
 		const id=arr[0], text=arr[1];
 		let prefix='';
 		if (refs[id] && refs[id].indexOf("msdiv")>-1){
-			let paranum=refs[id].match(/msdiv(\d+)/)[1];
+			const pn=[];
+			refs[id].replace(/msdiv([\-\d]+)/g,(m,n)=>{
+				pn.push(n);
+			})
+			const pnlast=pn[pn.length-1];
+			const at=pnlast.indexOf("-");
+			let endnum=parseInt( at>0? pnlast.substr(at+1):pnlast);
+			let paranum=pn.length>1? pn[0]+'-'+pnlast: pn[0];
+			
 			if (id=="an1.171:1.1" && paranum=="17") { //report to sc issue bilara-data#220
 				paranum="171";
+				endnum=171;
 			}
+
 			prefix=paranum+"|";
+			if (parseInt(paranum)!==lastparanum+1) {
+				if (!knowngap[id])console.log("paranum gap",id,lastparanum,paranum);
+			}
+			
+			lastparanum=endnum;
 		}
+		if (id=="sn23.25:1.1") prefix='184|';
+		else if (id=="sn45.170:2.1") prefix='171|'
+
 		return prefix+text+(comments[id]?"|||"+comments[id]:"");
 	}).filter(item=>item);
-
-
-
-	console.log("write ",bookname+".txt length",output.length);
-	if (writetodisk) fs.writeFileSync('books/'+bookname+'.txt',output.join("\n"),'utf8');
+	return output.join("\n");
+}
+const writefile=(bookname,content)=>{
+	console.log("write ",bookname+".txt length",content.length);
+	lastparanum=0;
+	if (writetodisk) fs.writeFileSync('books/'+bookname+'.txt',content,'utf8');
 }
 
-const loaddir=(filenames,bk,folder,comments,refs,multibook)=>{
+const readdir=(filenames,bk,folder,comments,refs,multibook)=>{
 	sortFilenames(filenames);
 	let bookname='';
 	let bookcontent='';
@@ -66,15 +94,19 @@ const loaddir=(filenames,bk,folder,comments,refs,multibook)=>{
 		const content=fs.readFileSync(folder+file,'utf8');
 		if (booknames[prefix] && booknames[prefix][bkn]) {
 			if (bookname&&bookname!==booknames[prefix][bkn] && multibook) {
-				writefile(bookname,bookcontent,comments,refs);
+				const content=dobook(bookcontent,comments,refs);
+				writefile(bookname,content);
 				bookcontent='';
 			}
 			bookname=booknames[prefix][bkn];
 		}
 		bookcontent+=content;
 	})
-	if (multibook) writefile(bookname,bookcontent,comments,refs);
-	return bookcontent
+	if (multibook) {
+		const content=dobook(bookcontent,comments,refs);
+		writefile(bookname,content);
+	}
+	return bookcontent;
 }
 
 const genbook=(folder)=>{
@@ -92,30 +124,33 @@ const genbook=(folder)=>{
 				const subfiles=fs.readdirSync(folder+fo);
 				const comfiles=fs.existsSync(comfolder+fo)&&fs.readdirSync(comfolder+fo);
 				const reffiles=fs.readdirSync(reffolder+fo);
-				comments=comfiles?JSON.parse(loaddir(comfiles,ni,comfolder+fo).replace(/\}\{/g,",")):{};
-				references=JSON.parse(loaddir(reffiles,ni,reffolder+fo).replace(/\}\{/g,","));
-				
+				comments=comfiles?JSON.parse(readdir(comfiles,ni,comfolder+fo).replace(/\}\{/g,",")):{};
+				references=JSON.parse(readdir(reffiles,ni,reffolder+fo).replace(/\}\{/g,","));
+
 				const bkn=sub.match(/\d+/)[0];
 
 				if (booknames[ni]&&booknames[ni][bkn]) {
 					if (bookname&&bookname!==booknames[ni][bkn]) {
-						writefile(bookname,bookcontent,comments,references);
+						writefile(bookname,bookcontent);
 						bookcontent='';
 					}
 					bookname=booknames[ni][bkn];
 				}
-				bookcontent+=loaddir(subfiles,sub,folder+fo,comments);
-
+				
+				const rawcontent=readdir(subfiles,sub,folder+fo);
+				bookcontent+= "\n"+dobook(rawcontent,comments,references);
 				if (!bookname) {
-					writefile(sub,bookcontent,comments,references);
+					writefile(sub,bookcontent);
 					bookcontent='';
 				}
+
 			});
-			if (bookname) writefile(bookname,bookcontent,comments,references);
+			
+			if (bookname) writefile(bookname,bookcontent);
 		} else {
-			const comments=JSON.parse(loaddir(comment_files,ni,comfolder+ni+'/').replace(/\}\{/g,","));
-			const references=JSON.parse(loaddir(reference_files,ni,reffolder+ni+'/').replace(/\}\{/g,","));
-			loaddir(files,ni,folder+ni+'/',comments,references,true);
+			comments=JSON.parse(readdir(comment_files,ni,comfolder+ni+'/').replace(/\}\{/g,","));
+			references=JSON.parse(readdir(reference_files,ni,reffolder+ni+'/').replace(/\}\{/g,","));
+			readdir(files,ni,folder+ni+'/',comments,references,true);
 		}
 		
 	}
