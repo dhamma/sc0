@@ -1,18 +1,21 @@
 'use strict'
 const fs=require("fs");
-const {createbuilder,writeExtra,parseCAP}=require("pengine");
-const folder="./books/";
+const {createbuilder}=require("pengine");
+const lang=process.argv[2]||'en';
+const folder="./"+lang+"-books/";
 const booknames=['dn1','dn2','dn3',
 	'mn1','mn2','mn3','sn1','sn2','sn3','sn4','sn5',
 	'an1','an2','an3','an4','an5','an6','an7','an8','an9','an10','an11'
 ]
 
 const build=()=>{
-	let prevbk='',prevparanum,paranum=0,pagegroup=0,prevpagegroup=0;
-	const builder=createbuilder({name:"sc0m"});
+	let prevbk='',prevparanum,pagegroup=0,prevpagegroup=0;
+	const builder=createbuilder({name:"sc0"+lang});
 
 	booknames.forEach(bk=>{
-		const rawlines=fs.readFileSync(folder+bk+".txt",'utf8').split(/\r?\n/);
+		const fn=folder+bk+".txt";
+		if (!fs.existsSync(fn))return;
+		const rawlines=fs.readFileSync(fn,'utf8').split(/\r?\n/);
 		for (var i=0;i<rawlines.length;i++) {
 			const content=rawlines[i];
 		
