@@ -1,0 +1,8 @@
+﻿ "word": "bya",
+        "text": "<dl id='bya˚'><dt><dfn>Vyābādheti & bya˚</dfn>
+
+should be
+
+ "word": "Byabādheti",
+        "text
+": "<dl id='bya˚'><dt><dfn>Vyābādheti & bya˚</dfn>

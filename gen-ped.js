@@ -1,8 +1,30 @@
 const fs=require("fs");
 const Sax=require("sax");
-const {palialpha,isPaliword}=require("pengine")
+const {palialpha,isPaliword}=require("pengine/paliutil")
+const {unique0}=require("pengine/arrutil")
 const extraheadword=require("./extraheadword");
+const pdf_pg_txt=fs.readFileSync('./ped-pdf-pg.txt','utf8').split(/\r?\n/);
+const pdf_pg={};
 
+/*
+ headword.txt格式說明
+ khaleti,31330   字, 所在ped-raw.txt 行
+ khallāta+sīsa  在khallāta 詞條中，定義組合字 khallātasīsa , sīsa 存在字典中
+ khallātiya@khallāta,31340  khallāta詞條中，參考了 khallātiya
+ khalu-pacchābhattika,31321 khalu 詞條中，組合的後半無<a>，字典無定義
+ khandha+@rasa,69637 rasa 詞條定義了 khandharasa
+*/
+const build_pdf_pg=()=>{
+	pdf_pg_txt.forEach(line=>{
+		let [pg,w1,w2]=line.split('\t');
+		if (!w1)return;
+		w1=w1.replace('*','');
+		w2=w2.replace('*','');
+		if (!pdf_pg[w1]) pdf_pg[w1]=-parseInt(pg)*2;
+		if (!pdf_pg[w2]) pdf_pg[w2]=-parseInt(pg)*2+1;
+	})
+}
+build_pdf_pg();
 let failed=0,passed=0;
 const assert=(a,b,testname)=>{
 	if (a!==b) {
@@ -54,8 +76,8 @@ const orderlist={
 
 let curword='',curline='';
 let prevtext='';
-const headword=[];
-const rawtext=[];
+let headword=[];
+let rawtext=[];
 const errors=[];
 const tagstack=[];
 const liststack=[];
@@ -69,7 +91,7 @@ O.ol=tag=>{
 	oltype=orderlist[tag.attributes.class];
 	if (!oltype) {
 		oltype=orderlist.decimal;//for "gati" missing class
-		console.log("ol default to decimal",curword)
+		// console.log("ol default to decimal",curword)
 	}
 	listtypes.push(oltype);
 	liststack.push(0);
@@ -160,24 +182,36 @@ const indent=()=>{
 }
 
 //grammar ㊠㊟㊫㊔㊞㉆㉄
+
+const knownbook={'Dāvs':true,'Pp-a':true,'Thag':true,'Kp':true,'Dhs-a':true,
+'Divy':true,'SN':true,'Mnd':true,'Vv-a':true,'Mil':true,'AN':true,'Dhp':true,
+'Vism':true,'Pv-a':true,'DN-a':true,'Snp-a':true}
 H.span=tag=>{
 	const attrs=tag.attributes;
 	const backward=snippet.length;
 
 	if (attrs.class=='ref') {
-		if (snippet.indexOf(" ")>-1) {
-			errors.push(rawtext.length+"\tref\t"+snippet )
+		spaceat=snippet.indexOf(" ");
+		if (spaceat>-1) {
+			const bn=snippet.substr(0,spaceat);
+			if(knownbook[bn]) {
+				snippet=bn+'.'+snippet.substr(spaceat+1);
+			} else {
+				errors.push(rawtext.length+"\tref\t"+snippet )
+			}
 		}
-		//snippet=snippet.replace(/ /g,'');
+		if (snippet.indexOf(";")>-1) { //SN.i.144; iv.290 v.263
+			snippet=snippet.replace(';',',');
+		}
 		linetext=linetext.substr(0,linetext.length-backward);
-		linetext+="@["+snippet+"]";
+		linetext+="@"+snippet+";";
 		linkcount++;
 	}
 }
 O.i=tag=>{
 	const attrs=tag.attributes;
 	if (attrs&&attrs.class&&attrs.class=='term') {
-		linetext+="^[";
+		linetext+="{";
 	}	
 }
 //deal with sandhi
@@ -208,7 +242,7 @@ H.i=tag=>{
 			//eg ghara-kapoṭa
 			if (isPaliword(snippet.substr(1))) {
 				//@ make it after master headword
-				addheadword(curword+'+'+snippet); // snippet has no defination
+				addheadword(curword+snippet); // snippet has no defination
 			}
 		} else {
 			if (snippet!==curword){
@@ -220,7 +254,7 @@ H.i=tag=>{
 			}
 		}
 		
-		linetext+="]";
+		linetext+="}";
 	}
 }
 let entrycount=0,prevalpha='',pagestart=0;
@@ -240,7 +274,14 @@ H.dt=tag=>{
 	}
 	addheadword(curword);
 
+	if (pdf_pg[curword]) {
+		// console.log('cannot find',curword,'in pdf pg mapping')
+		if (pdf_pg[curword]<0) pdf_pg[curword]=-pdf_pg[curword];
+	}
+
 	rawtext.push(":"+(entrycount+1)+"-"+linetext);
+	//may contains multiple terms
+	
 	entrycount++;
 	prevalpha=alpha;
 	linetext='';
@@ -297,14 +338,15 @@ parsetext=text=>{
 const highfreq=[]
 addheadword=w=>{
 	headword.push([w,rawtext.length]);
-
 	const ex=extraheadword[w];
 	if (ex) {
 		headword.push([ex,rawtext.length]);
 		delete extraheadword[w]
 	}
 }
-
+const epilog=lines=>{
+	return lines.map(line=>line.replace(/\}([¹²³⁴⁵⁶⁷⁸⁹])/g,'$1}')); //移入義項標記
+}
 dofile=()=>{
 	const pts=JSON.parse(fs.readFileSync("./pts.json","utf8"));
 	const MAXWORD=pts.length
@@ -332,12 +374,13 @@ dofile=()=>{
 		if (entrylinecount>20 || linkcount-linknow>50) {
 			highfreq.push([curword,entrylinecount,linkcount-linknow])
 		}
-		
-	}	
+	}
+	rawtext=epilog(rawtext);
 }
 
 finalize=()=>{
 	headword.sort((a,b)=>(a[0]==b[0])?0:((a[0]>b[0])?1:-1));	
+	// headword=unique0(headword);不能去重 ，例Kasiṇa
 	highfreq.sort((a,b)=>b[2]-a[2]);
 }
 writefile=()=>{
@@ -353,5 +396,11 @@ testit=()=>{
 testit();
 
 dofile();
-finalize()
+finalize();
+
+for (const w in pdf_pg) {
+	if (pdf_pg[w]<0) {
+		console.log('not found',(-pdf_pg[w])/2,w)
+	}
+}
 writefile();
