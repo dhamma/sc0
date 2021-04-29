@@ -64,8 +64,9 @@ const dobook=(bookcontent,{fn,lang,comments,references,idarr})=>{
 			PN='\t'+paranum;
 		} else PN='';
 		idarr&&idarr.push(id+PN);
-
+		if (id=='mn52:3.1') debugger
         if (extraseg[id]) {
+            
             const {pn}=extraseg[id];
             let at=text.indexOf( extraseg[id][lang]);
             if (at==-1) {
@@ -74,7 +75,7 @@ const dobook=(bookcontent,{fn,lang,comments,references,idarr})=>{
             }
             output.push(text.substr(0,at)+(comments&&comments[id]?"|||"+comments[id]:""));
             output.push((pn+'|'+text.substr(at)));
-            idarr&&idarr.push(id+'+\t'+pn); //+表示拆分段, 英譯相同段號
+            idarr&&idarr.push(id+'\t'+pn); //+表示拆分段, 英譯相同段號
         } else {
             output.push((paranum?paranum+'|':'')+text+(comments&&comments[id]?"|||"+comments[id]:""));
         }
@@ -197,7 +198,7 @@ const writeresult=(bookname,content,idarr,{lang,filter,writetodisk=false})=>{
             const at=idarr.indexOf(id);
             if (at==-1) {
                 missing.push(id);
-                out.push('');
+				out.push(''); 
             } else {
                 out.push(lines[at]); 
             }

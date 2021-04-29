@@ -1,38 +1,21 @@
 'use strict';
-const {segmentize}=require('./mapcs');
+const {segmentize, genVRIbooks}=require('../cs0/sentencebreak');
 const plifolder='pli-books/';
 const {readFileSync,readdirSync,writeFileSync}=require('fs');
 const {NOTESEP}=require('pengine/textutil');
-const vribooks={},scbooks={};  //book , paranum , line
-const genVRIbooks=()=>{ 
-    let paranum='';
-    const mul=readFileSync('../cs0/m-raw.txt','utf8').split(/\r?\n/);
-    for (let i=0;i<mul.length;i++) {
-        const linetext=mul[i];
-        const at=linetext.indexOf('\t');
-        const addr=linetext.substr(0,at);
-        const at3=addr.indexOf('_');
-        const bk=addr.substr(0,at3);
-        if (bk=='kp') break;
-
-        let linebody=linetext.substr(at+1);
-        const at2=linebody.indexOf(NOTESEP);
-        if (at2>-1) linebody=linebody.substr(0,at2);
-        const at4=linebody.indexOf('|');
-        if (at4>-1) {
-            const header=linebody.substr(0,at4);
-            linebody=linebody.substr(at4+1);
-            const m=header.match(/[\d\.]+/);
-            if (m) paranum=m[0];
-            else paranum=''; //stopped by subhead
-        }
-
-        if (!vribooks[bk]) vribooks[bk]={};
-        if (!paranum) continue;
-        if (!vribooks[bk][paranum]) vribooks[bk][paranum]=[];
-        vribooks[bk][paranum].push(linebody);
-    }
+const scbooks={};  //book , paranum , line
+const vribooks=genVRIbooks();
+const purify=line=>{//make it closer to VRI
+    return line
+    .replace(/ṁ/g,'ṃ')
+    .replace(/:/g,' –')
+    .replace(/([^ ])—/g,'$1 –')
+    // .replace(/\d+\./g,'')
+    // .replace(/\([\d– ]+\)/g,'')
+    .replace(/n([”’]+)ti/g,'$1nti')
+    // .replace(/([^ ])–([^ ])/g,'$1 – $2');
 }
+
 const genSCBooks=()=>{
     const plibooks=readdirSync(plifolder);
     plibooks.forEach(fn=>{
@@ -53,12 +36,11 @@ const genSCBooks=()=>{
             }
             if (!paranum) continue;
             if (!scbooks[fn][paranum]) scbooks[fn][paranum]=[];
-            scbooks[fn][paranum].push(linetext);
+            scbooks[fn][paranum].push(purify(linetext));
         }
     });
 }
 //產生方便diff的文件，差別在換行的數量不同，只比對段落文字，因為兩者的標題不太一致
-genVRIbooks();  
 genSCBooks();
 //console.log(vribooks['dn1']['1']);
 //console.log(scbooks['dn1']['1']);
@@ -89,4 +71,4 @@ const genmap=()=>{
 }
 
 genmap();
-writeFileSync('mapcs.txt',out.join('\n'),'utf8')
+writeFileSync('sentencebreak.txt',out.join('\n'),'utf8')
