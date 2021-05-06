@@ -1,0 +1,50 @@
+1	1.The Root of All Things
+14	2.All the Defilements
+29	3.Heirs in the Teaching
+34	4.Fear and Dread
+57	5.Unblemished
+64	6.One Might Wish
+70	7.The Simile of the Cloth
+81	8.Self-Effacement
+89	9.Right View
+105	0.Mindfulness Meditation
+139	11.The Shorter Discourse on the Lion’s Roar
+146	12.The Longer Discourse on the Lion’s Roar
+163	13.The Longer Discourse on the Mass of Suffering
+181	14.Measuring Up
+185	15.Emotional Barrenness
+190	16.Jungle Thickets
+199	17.The Honey-Cake
+206	18.Two Kinds of Thought
+216	19.How to Stop Thinking
+222	20.The Simile of the Saw
+234	21The Simile of the Snake
+249	22.The Ant-Hill
+252	23.Prepared Chariots
+261	24.Fodder
+272	25.The Noble Search
+288	26.The Shorter Elephant’s Footprint Simile
+300	27.The Longer Simile of the Elephant’s Footprint
+307	28.The Longer Simile of the Heartwood
+312	29.The Shorter Simile of the Heartwood
+325	30.The Shorter Discourse at Gosiṅga
+332	31.The Longer Discourse at Gosiṅga
+346	32.The Longer Discourse on the Cowherd
+353	33.The Shorter Discourse With Saccaka
+364	34.The Longer Discourse With Saccaka
+374	35.‘This is good enough for meditation.’
+390	36.The Shorter Discourse on the Ending of Craving
+396	37.The Longer Discourse on the Ending of Craving
+407	38.That is how this entire mass of suffering ceases.
+415	39.The Longer Discourse at Assapura
+435	40.The Shorter Discourse at Assapura
+439	41.The People of Sālā
+444	42.The People of Verañja
+449	43.The Great Classification
+460	44.The Shorter Classification
+468	45.The Shorter Discourse on Taking Up Practices
+473	46.The Great Discourse on Taking Up Practices
+487	47.The Inquirer
+491	48.The Mendicants of Kosambi
+501	49.On the Invitation of Brahmā
+506	50.The Rebuke of Māra

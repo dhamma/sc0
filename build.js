@@ -6,14 +6,32 @@ const {getSentenceBreak}=require('../cs0/sentencebreak');
 const {NOTESEP,HEADSEP}=require('pengine/textutil')
 const lang=process.argv[2]||'en';
 const folder="./"+lang+"-books/";
+const paranames_folder=lang+'-paranames/';
 const booknames=['dn1','dn2','dn3',
 	'mn1','mn2','mn3','sn1','sn2','sn3','sn4','sn5',
 	'an1','an2','an3','an4','an5','an6','an7','an8','an9','an10','an11'
 ]
-
-
+const getParaname=bk=>{
+	const out=[];
+	let ppn=0;
+	const fn=paranames_folder+bk+'.txt';
+	if (fs.existsSync(fn)) {
+		const lines=fs.readFileSync(fn,'utf8').split(/\r?\n/);
+		lines.forEach(line=>{
+			let [pn,text]=line.split('\t');
+			pn=parseInt(pn);
+			out[pn]=text;
+			if (ppn>=pn) console.log('error pn',bk,line)
+		})
+	}
+	for (let i=0;i<out.length;i++) {
+		if (typeof out[i]=='undefined') out[i]='';
+	}
+	return out.join('|');
+}
 const build=()=>{
 	let prevbk='';
+	const paranames=[];
 	const builder=createBuilder({name:"sc0"+lang});
 	booknames.forEach(bk=>{
 		const fn=folder+bk+".txt";
@@ -23,6 +41,7 @@ const build=()=>{
 			const content=rawlines[i];
 			if (prevbk&&bk!==prevbk){
 				builder.newpage(-1,0);
+				paranames.push( getParaname(prevbk) );
 				builder.addbook(prevbk);
 			}
 			prevbk=bk;
@@ -36,11 +55,12 @@ const build=()=>{
 		}
 
 	})
+	paranames.push( getParaname(prevbk) );
 	builder.addbook(prevbk);
 
 	const sentencebreak=getSentenceBreak(builder,'sentencebreak.txt');
 	
-	const payload=[];
+	const payload=paranames;
 	builder.done(payload,{$sentencebreak:sentencebreak.join('\n')});
 }
 

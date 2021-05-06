@@ -1,0 +1,132 @@
+1	1.The Prime Net-1.Talk on Wanderers
+7	-2.1.The Shorter Section on Ethics
+11	-2.2.The Middle Section on Ethics
+21	-2.3.The Large Section on Ethics
+28	-3.1.Theories About the Past
+30	-3.1.1.Eternalism
+38	-3.1.2.Partial Eternalism
+53	-3.1.3.The Cosmos is Finite or Infinite
+61	-3.1.4.Equivocators
+67	-3.1.5.Doctrines of Origination by Chance
+74	-3.2.Theories About the Future
+75	-3.2.1.Percipient Life After Death
+78	-3.2.2.Non-Percipient Life After Death
+81	-3.2.3.Neither Percipient Nor Non-Percipient Life After Death
+84	-3.2.4.Annihilationism
+93	-3.2.5.Extinguishment in the Present Life
+105	-4.1.Anxiety and Evasiveness
+118	-4.2.Conditioned by Contact
+131	-4.3.Not Possible
+144	-4.4.Dependent Origination
+145	-5.The End of the Round
+150	2.The Fruits of the Ascetic Life-1.A Discussion With the King’s Ministers
+157	-2.A Discussion With Jīvaka Komārabhacca
+160	-3.The Question About the Fruits of the Ascetic Life
+165	-3.1.The Doctrine of Pūraṇa Kassapa
+167	-3.2.The Doctrine of Makkhali Gosāla
+170	-3.3.The Doctrine of Ajita Kesakambala
+173	-3.4.The Doctrine of Pakudha Kaccāyana
+176	-3.5.The Doctrine of Nigaṇṭha Nātaputta
+179	-3.6.The Doctrine of Sañjaya Belaṭṭhiputta
+182	-4.1.The First Fruit of the Ascetic Life
+186	-4.2.The Second Fruit of the Ascetic Life
+189	-4.3.The Finer Fruits of the Ascetic Life
+194	-4.3.1.1.The Shorter Section on Ethics
+195	-4.3.1.2.The Middle Section on Ethics
+205	-4.3.1.3.The Long Section on Ethics
+213	-4.3.2.1.Sense Restraint
+214	-4.3.2.2.Mindfulness and Situational Awareness
+215	-4.3.2.3.Contentment
+216	-4.3.2.4.Giving Up the Hindrances
+226	-4.3.2.5.First Absorption
+228	-4.3.2.6.Second Absorption
+230	-4.3.2.7.Third Absorption
+232	-4.3.2.8.Fourth Absorption
+234	-4.3.3.1.Knowledge and Vision
+236	-4.3.3.2.Mind-Made Body
+238	-4.3.3.3.Psychic Powers
+240	-4.3.3.4.Clairaudience
+242	-4.3.3.5.Comprehending the Minds of Others
+244	-4.3.3.6.Recollection of Past Lives
+246	-4.3.3.7.Clairvoyance
+248	-4.3.3.8.Ending of Defilements
+250	-5.Ajātasattu Declares Himself a Lay Follower
+255	3.With Ambaṭṭha-1.The Section on Pokkharasāti
+256	-2.The Brahmin Student Ambaṭṭha
+263	-2.1.The First Use of the Word “Riffraff”
+265	-2.2.The Second Use of the Word “Riffraff”
+266	-2.3.The Third Use of the Word “Riffraff”
+267	-2.4.The Word “Son of Bondservants” is Used
+273	-2.5.The Discussion of Ambaṭṭha’s Heritage
+275	-3.The Supremacy of the Aristocrats
+278	-4.Knowledge and Conduct
+280	-5.Four Drains
+283	-6.Being Like the Sages of the Past
+287	-7.Seeing the Two Marks
+292	-8.Pokkharasāti Visits the Buddha
+299	-9.Pokkharasāti Declares Himself a Lay Follower
+300	4.With Soṇadaṇḍa-1.The Brahmins and Householders of Campā
+303	-2.The Qualities of Soṇadaṇḍa
+304	-3.The Qualities of the Buddha
+306	-4.Soṇadaṇḍa’s Second Thoughts
+309	-5.What Makes a Brahmin
+317	-6.The Discussion of Ethics and Wisdom
+319	-7.Soṇadaṇḍa Declares Himself a Lay Follower
+323	5.With Kūṭadanta-1.The Brahmins and Householders of Khāṇumata
+330	-2.The Qualities of Kūṭadanta
+332	-3.The Qualities of the Buddha
+334	-4.The Story of King Mahāvijita’s Sacrifice
+339	-4.1.The Four Accessories
+340	-4.2.The Eight Accessories
+341	-4.3.Four More Accessories
+342	-4.4.The Three Modes
+343	-4.5.The Ten Respects
+344	-4.6.The Sixteen Respects
+349	-5.A Regular Gift as an Ongoing Family Sacrifice.
+354	-6.Kūṭadanta Declares Himself a Lay Follower
+355	-7.The Realization of the Fruit of Stream-Entry
+359	6.With Mahāli-1.On the Brahmin Emissaries
+361	-2.On Oṭṭhaddha the Licchavi
+365	-2.1.One-Sided Immersion
+373	-2.2.The Four Noble Fruits
+374	-2.3.The Noble Eightfold Path
+376	-2.4.On the Two Renunciates
+378	7.With Jāliya
+381	8.The Longer Discourse on the Lion’s Roar
+385	-1.Examination
+393	-2.The Noble Eightfold Path
+394	-3.Practicing Self-Mortification
+397	-4.The Uselessness of Self-Mortification
+400	-5.The Accomplishment of Ethics, Immersion, and Wisdom
+402	-6.The Lion’s Roar
+404	-7.The Probation For One Previously Ordained
+406	9.With Poṭṭhapāda-1.On the Wanderer Poṭṭhapāda
+411	-1.1.On the Cessation of Perception
+412	-1.2.Perception Arises With a Cause
+417	-1.3.Perception and the Self
+422	-2.On Citta Hatthisāriputta
+424	-2.1.Things That Are Definitive
+428	-2.2.Three Kinds of Reincarnation
+442	-2.3.The Ordination of Citta Hatthisāriputta
+444	10.With Subha
+450	-1.The Entire Spectrum of Ethics
+454	-2.The Spectrum of Immersion
+472	-3.The Spectrum of Wisdom
+481	11.With Kevaddha
+483	-1.The Demonstration of Psychic Power
+485	-2.The Demonstration of Revealing
+486	-3.The Demonstration of Instruction
+487	-4.On the Mendicant In Search of the Cessation of Being
+497	-4.1.The Simile of the Land-Spotting Bird
+501	12.With Lohicca
+509	-1.Questioning Lohicca
+513	-2.Three Teachers Who Deserve to Be Reprimanded
+516	-3.A Teacher Who Does Not Deserve to Be Reprimanded
+518	13.The Three Knowledges
+522	-1.The Variety of Paths
+525	-2.Questioning Vāseṭṭha
+534	-2.1.The Simile of the Finest Lady in the Land
+538	-2.2.The Simile of the Ladder
+542	-2.3.The Simile of the River Aciravatī
+550	-3.Converging
+556	-4.Teaching the Path to Brahmā

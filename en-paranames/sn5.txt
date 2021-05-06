@@ -1,0 +1,601 @@
+1	45.Path-1.Ignorance
+2	-2.Half the Spiritual Life
+3	-3.Sāriputta
+4	-4.Regarding the Brahmin Jāṇussoṇi
+5	-5.What’s the Purpose
+6	-6.A Mendicant (1st)
+7	-7.A Mendicant (2nd)
+8	-8.Analysis
+9	-9.A Spike
+10	-10.With Nandiya
+11	-11.Meditation (1st)
+12	-12.Meditation (2nd)
+13	-13.A Trainee
+14	-14.Arising (1st)
+15	-15.Arising (2nd)
+16	-16.Purified (1st)
+17	-17.Purified (2nd)
+18	-18.At the Chicken Monastery (1st)
+19	-19.At the Chicken Monastery (2nd)
+20	-20.At the Chicken Monastery (3rd)
+21	-21.The Wrong Way
+22	-22.Unskillful Qualities
+23	-23.Practice (1st)
+24	-24.Practice (2nd)
+25	-25.A Good Person (1st)
+26	-26.A Good Person (2nd)
+27	-27.Pots
+28	-28.Immersion
+29	-29.Feeling
+30	-30.With Uttiya
+31	-31.Practice (1st)
+32	-32.Practice (2nd)
+33	-33.Missed Out
+34	-34.Going to the Far Shore
+35	-35.The Ascetic Life (1st)
+36	-36.The Ascetic Life (2nd)
+37	-37.The Brahmin Life (1st)
+38	-38.The Brahmin Life (2nd)
+39	-39.The Spiritual Path (1st)
+40	-40.The Spiritual Path (2nd)
+41	-41.The Fading Away of Greed
+42-47	-42–47.Six Discourses on Giving Up Fetters, Etc.
+48	-48.Extinguishment by Not Grasping
+49	-49.Good Friends (1st)
+50-54	-50–54.Five Discourses on Accomplishment in Ethics, Etc.(1st)
+55	-55.Accomplishment in Proper Attention (1st)
+56	-56.Good Friends (2nd)
+57-61	-57–61.Five Discourses on Accomplishment in Ethics, Etc.(2nd)
+62	-62.Accomplishment in Proper Attention (2nd)
+63	-63.Good Friends (1st)
+64-68	-64–68.Five Discourses on Accomplishment in Ethics, Etc.(1st)
+69	-69.Accomplishment in Proper Attention (1st)
+70	-70.Good Friends (2nd)
+71-75	-71–75.Five Discourses on Accomplishment in Ethics, Etc.(2nd)
+76	-76.Accomplishment in Proper Attention (2nd)
+77	-77.Good Friends
+78-82	-78–82.Five Discourses on Accomplishment in Ethics, Etc.
+83	-83.Accomplishment in Proper Attention
+84	-84.Good Friends (2nd)
+85-89	-85–89.Five Discourses on Accomplishment in Ethics, Etc.
+90	-90.Accomplishment in Proper Attention (2nd)
+91	-91.Slanting East
+92-95	-92–95.Four Discourses on Slanting East
+96	-96.Sixth Discourse on Slanting East
+97	-97.Slanting to the Ocean
+98-102	-98–102.Five Discourses on Slanting to the Ocean
+103	-103.Slanting East
+104	-104–108.Five Discourses on Sloping to the East
+109	-109.Slanting to the Ocean
+110	-110–114.Slanting to the Ocean
+115	-115.Slanting East
+116	-116–120.Slanting East
+121	-121.Slanting to the Ocean
+122-126	-122–126.Sloping to the Ocean
+127	-127.Slanting East
+128-132	-128–132.Slanting East
+133	-133.Slanting to the Ocean
+134-138	-134–138.Slanting to the Ocean
+139	-139.The Realized One
+140	-140.Footprints
+141	-141–145.A Roof Peak
+146	-146–148.The Moon, Etc.
+149	-149.Hard Work
+150	-150.Seeds
+151	-151.Dragons
+152	-152.Trees
+153	-153.Pots
+154	-154.A Spike
+155	-155.The Sky
+156	-156.Storms (1st)
+157	-157.Storms (2nd)
+158	-158.A Ship
+159	-159.A Guest House
+160	-160.A River
+161	-161.Searches
+162	-162.Discriminations
+163	-163.Defilements
+164	-164.States of Existence
+165	-165.Forms of Suffering
+166	-166.Kinds of Barrenness
+167	-167.Stains
+168	-168.Troubles
+169	-169.Feelings
+170	-170.Craving
+172	-171.Floods
+173	-172.Attachments
+174	-173.Grasping
+175	-174.Personal Ties
+176	-175.Tendencies
+177	-176.Kinds of Sensual Stimulation
+178	-177.Hindrances
+179	-178.Grasping Aggregates
+180	-179.Lower Fetters
+181	-180.Higher Fetters
+182	46.Awakening Factors-1.The Himalaya
+183	-2.The Body
+184	-3.Ethics
+185	-4.Clothes
+186	-5.A Monk
+187	-6.Kuṇḍaliya
+188	-7.A Bungalow
+189	-8.With Upavāna
+190	-9.Arisen (1st)
+191	-10.Arisen (2nd)
+192	-11.Living Creatures
+193	-12.The Simile of the Sun (1st)
+194	-13.The Simile of the Sun (2nd)
+195	-14.Sick (1st)
+196	-15.Sick (2nd)
+197	-16.Sick (3rd)
+198	-17.Going to the Far Shore
+199	-18.Missed Out
+200	-19.Noble
+201	-20.Disillusionment
+202	-21.To Awakening
+203	-22.A Teaching on the Awakening Factors
+204	-23.Grounds
+205	-24.Improper Attention
+206	-25.Non-decline
+207	-26.The Ending of Craving
+208	-27.The Cessation of Craving
+209	-28.Helping Penetration
+210	-29.One Thing
+211	-30.With Udāyī
+212	-31.Skillful (1st)
+213	-32.Skillful (2nd)
+214	-33.Corruptions
+215	-34.Not Corruptions
+216	-35.Improper Attention
+218	-36.Growth
+219	-37.Obstacles
+220	-39.Trees
+221	-40.Hindrances
+222	-41.Discriminations
+223	-42.A Wheel Turning Monarch
+224	-43.About Māra
+225	-44.Witless
+226	-45.Wise
+227	-46.Poor
+228	-47.Prosperous
+229	-48.The Sun
+230	-49.Interior
+231	-50.Exterior
+232	-51.Nourishing
+233	-52.Is There a Way?
+234	-53.Fire
+235	-54.Full of Love
+236	-55.With Saṅgārava
+237	-56.A Place Without Fear
+238	-57.A Skeleton
+239	-58.Worm-Infested
+240	-59.Livid
+241	-60.Split Open
+242	-61.Bloated
+243	-62.Love
+244	-63.Compassion
+245	-64.Rejoicing
+246	-65.Equanimity
+247	-66.Breathing
+248	-67.Ugliness
+249	-68.Death
+250	-69.Repulsiveness of Food
+251	-70.Dissatisfaction
+252	-71.Impermanence
+253	-72.Suffering in Impermanence
+254	-73.Not-Self in Suffering
+255	-74.Giving Up
+256	-75.Dispassion
+257	-76.Cessation
+258-269	-77–88.The Ganges River, Etc.
+270-279	-89–98.A Realized One, Etc.
+280-291	-99–110.Hard Work, Etc.
+292-301	-111–120.Searches, Etc.
+302-310	-121–129.Floods
+311	-130.Higher Fetters
+312-323	-131–142.More on the Ganges River, Etc.
+324-333	-143–152.Another Series on a Realized One, Etc.
+334-345	-153–164.Hard Work, Etc.
+346-356	-165–174.Another Series on Searches, Etc.
+357-366	-175–184.Another Series on Floods, Etc.
+367	47.Mindfulness Meditation-1.In Ambapālī’s Wood
+368	-2.Mindful
+369	-3.A Monk
+370	-4.At Sālā
+371	-5.A Heap of the Unskillful
+372	-6.A Hawk
+373	-7.A Monkey
+374	-8.Cooks
+375	-9.Sick
+376	-10.The Nuns’ Quarters
+377	-11.A Great Man
+378	-12.At Nālandā
+379	-13.With Cunda
+380	-14.At Ukkacelā
+381	-15.With Bāhiya
+382	-16.With Uttiya
+383	-17.Noble
+384	-18.With Brahmā
+385	-19.At Sedaka
+386	-20.The Finest Lady in the Land
+387	-21.Ethics
+388	-22.Long Lasting
+389	-23.Decline
+390	-24.Plain Version
+391	-25.A Certain Brahmin
+392	-26.Partly
+393	-27.Completely
+394	-28.The World
+395	-29.With Sirivaḍḍha
+396	-30.With Mānadinna
+397	-31.Not Learned From Anyone Else
+398	-32.Fading Away
+399	-33.Missed Out
+400	-34.Developed
+401	-35.Mindful
+402	-36.Enlightenment
+403	-37.Desire
+404	-38.Complete Understanding
+405	-39.Development
+406	-40.Analysis
+407	-41.The Deathless
+408	-42.Origin
+409	-43.The Path
+410	-44.Mindful
+411	-45.A Heap of the Skillful
+412	-46.Restraint in the Monastic Code
+413	-47.Bad Conduct
+414	-48.Friends
+415	-49.Feelings
+416	-50.Defilements
+417-428	-51–62.Twelve Discourses on the Ganges River, Etc.
+429-438	-63–72.The Realized One
+439-450	-73–84.Hard Work, Etc.
+451-460	-85–94.Searches, Etc.
+461-470	-95–104.Higher Fetters, Etc.
+471	48.Faculties-1.Plain Version
+472	-2.A Stream-Enterer (1st)
+473	-3.A Stream-Enterer (2nd)
+474	-4.A Perfected One (1st)
+475	-5.A Perfected One (2nd)
+476	-6.Ascetics and Brahmins (1st)
+477	-7.Ascetics and Brahmins (2nd)
+478	-8.Should Be Seen
+479	-9.Analysis (1st)
+480	-10.Analysis (2nd)
+481	-11.Gain
+482	-12.In Brief (1st)
+483	-13.In Brief (2nd)
+484	-14.In Brief (3rd)
+485	-15.In Detail (1st)
+486	-16.In Detail (2nd)
+487	-17.In Detail (3rd)
+488	-18.Practicing
+489	-19.Endowed
+490	-20.The Ending of Defilements
+491	-21.Future Lives
+492	-22.The Life Faculty
+493	-23.The Faculty of Enlightenment
+494	-24.A One-Seeder
+495	-25.Plain Version
+496	-26.A Stream-Enterer
+497	-27.A Perfected One
+498	-28.Awakened
+499	-29.Ascetics and Brahmins (1st)
+500	-30.Ascetics and Brahmins (2nd)
+501	-31.Plain Version
+502	-32.A Stream-Enterer
+503	-33.A Perfected One
+504	-34.Ascetics and Brahmins (1st)
+505	-35.Ascetics and Brahmins (2nd)
+506	-36.Analysis (1st)
+507	-37.Analysis (2nd)
+508	-38.Analysis (3rd)
+509	-39.The Simile of the Fire Sticks
+510	-40.Irregular Order
+511	-41.Old Age
+512	-42.The Brahmin Uṇṇābha
+513	-43.At Sāketa
+514	-44.At the Eastern Gate
+515	-45.At the Eastern Monastery (1st)
+516	-46.At the Eastern Monastery (2nd)
+517	-47.At the Eastern Monastery (3rd)
+518	-48.At the Eastern Monastery (4th)
+519	-49.About Piṇḍola Bhāradvāja
+520	-50.At Āpaṇa
+521	-51.At Sālā
+522	-52.In the Land of the Mallas
+523	-53.A Trainee
+524	-54.Footprints
+525	-55.Heartwood
+526	-56.Grounded
+527	-57.With Brahmā Sahampati
+528	-58.The Boar’s Cave
+529	-59.Arising (1st)
+530	-60.Arising (2nd)
+531	-61.Fetters
+532	-62.Tendencies
+533	-63.Complete Understanding
+534	-64.Ending of Defilements
+535	-65.Two Fruits
+536	-66.Seven Benefits
+537	-67.A Tree (1st)
+538	-68.A Tree (2nd)
+539	-69.A Tree (3rd)
+540	-70.A Tree (4th)
+541-552	-71–82.Slanting East, Etc.
+587-596	-115–124.Floods
+597-608	-125–136.Another on Sloping East, Etc.
+641-650	-169–178.Another Series on Floods, Etc.
+651-662	49.Right Efforts-1–12.Sloping East, Etc.
+673-684	-23–34.Hard Work, Etc.
+685-694	-35–44.Ten Discourses on Searches, Etc.
+695-704	-45–54.Floods, Etc.
+705-716	50.Five Powers-1–12.Sloping East, Etc.
+749-758	-45–54.Floods, Etc.
+759-770	-55–66.Sloping East, Etc.
+792-802	-89–98.Another Series on Searches, Etc.
+803-812	-99–108.Another Series on Floods, Etc.
+813	51.Bases of Psychic Power-1.From the Near Shore
+814	-2.Missed Out
+815	-3.A Noble One
+816	-4.Disillusionment
+817	-5.Partly
+818	-6.Completely
+819	-7.A Mendicant
+820	-8.Awakened
+821	-9.Knowledge
+822	-10.At the Cāpāla Shrine
+823	-11.Before
+824	-12.Very Fruitful
+825	-13.Immersion Due to Enthusiasm
+826	-14.With Moggallāna
+827	-15.The Brahmin Uṇṇābha
+828	-16.Ascetics and Brahmins (1st)
+829	-17.Ascetics and Brahmins (2nd)
+830	-18.A Mendicant
+831	-19.A Teaching on Psychic Power, Etc.
+832	-20.Analysis
+833	-21.The Path
+834	-22.The Iron Ball
+835	-23.A Mendicant
+836	-24.Plain Version
+837	-25.Fruits (1st)
+838	-26.Fruits (2nd)
+839	-27.With Ānanda (1st)
+840	-28.With Ānanda (2nd)
+841	-29.Several Mendicants (1st)
+842	-30.Several Mendicants (2nd)
+843	-31.About Moggallāna
+844	-32.The Realized One
+845-856	-33–44.The Ganges River, Etc.
+889-898	-77–86.Floods, Etc.
+899	52.Anuruddha-1.In Private (1st)
+900	-2.In Private (2nd)
+901	-3.On the Bank of the Sutanu
+902	-4.At Thorny Wood (1st)
+903	-5.At Thorny Wood (2nd)
+904	-6.At Thorny Wood (3rd)
+905	-7.The Ending of Craving
+906	-8.The Frankincense-Tree Hut
+907	-9.In Ambapālī’s Wood
+908	-10.Gravely Ill
+909	-11.A Thousand Eons
+910	-12.Psychic Powers
+911	-13.Clairaudience
+912	-14.Comprehending the Mind
+913	-15.Possible
+914	-16.The Results of Deeds Undertaken
+915	-17.Where All Paths of Practice Lead
+916	-18.Diverse Elements
+917	-19.Diverse Beliefs
+918	-20.Comprehending the Faculties of Others
+919	-21.Absorptions, Etc.
+920	-22.Past Lives
+921	-23.Clairvoyance
+922	-24.The Ending of Defilements
+923-934	53.Absorption-1–12.Absorptions, Etc.
+967-976	-45–54 Floods, Etc.
+977	54.Breath Meditation-1.One Thing
+978	-2.Awakening Factors
+979	-3.Plain Version
+980	-4.Fruits (1st)
+981	-5.Fruits (2nd)
+982	-6.With Ariṭṭha
+983	-7.About Mahākappina
+984	-8.The Simile of the Lamp
+985	-9.At Vesālī
+986	-10.With Kimbila
+987	-11.Icchānaṅgala
+988	-12.In Doubt
+989	-13.With Ānanda (1st)
+990	-14.With Ānanda (2nd)
+991	-15.Several Mendicants (1st)
+992	-16.Several Mendicants (2nd)
+993	-17.Giving Up the Fetters
+994	-18.Uprooting the Tendencies
+995	-19.Completely Understanding the Course of Time
+996	-20.The Ending of Defilements
+997	55.Stream-Entry-1.A Wheel-Turning Monarch
+998	-2.The Culmination of the Spiritual Life
+999	-3.With Dīghāvu
+1000	-4.With Sāriputta (1st)
+1001	-5.With Sāriputta (2nd)
+1002	-6.The Chamberlains
+1003	-7.The People of Bamboo Gate
+1004	-8.In the Brick Hall (1st)
+1005	-9.At the Brick Hall (2nd)
+1006	-10.At the Brick Hall (3rd)
+1007	-11.A Saṅgha of a Thousand Nuns
+1008	-12.The Brahmins
+1009	-13.With the Senior Monk Ānanda
+1010	-14.Fear of the Bad Place
+1011	-15.Fear of the Bad Place, the Underworld
+1012	-16.Friends and Colleagues (1st)
+1013	-17.Friends and Colleagues (2nd)
+1014	-18.A Visit to the Gods (1st)
+1015	-19.A Visit to the Gods (2nd)
+1016	-20.A Visit to the Gods (3rd)
+1017	-21.With Mahānāma (1st)
+1018	-22.With Mahānāma (2nd)
+1019	-23.With Godhā the Sakyan
+1020	-24.About Sarakāni (1st)
+1021	-25.About Sarakāni the Sakyan (2nd)
+1022	-26.Anāthapiṇḍika (1st)
+1023	-27.With Anāthapiṇḍika (2nd)
+1024	-28.Dangers and Threats (1st)
+1025	-29.Dangers and Threats (2nd)
+1026	-30.With Nandaka the Licchavi
+1027	-31.Overflowing Merit (1st)
+1028	-32.Overflowing Merit (2nd)
+1029	-33.Overflowing Merit (3rd)
+1030	-34.Footprints of the Gods (1st)
+1031	-35.Footprints of the Gods (2nd)
+1032	-36.In Common With the Gods
+1033	-37.With Mahānāma
+1034	-38.Rain
+1035	-39.With Kāḷigodhā
+1036	-40.Nandiya the Sakyan
+1037	-41.Overflowing Merit (1st)
+1038	-42.Overflowing Merit (2nd)
+1039	-43.Overflowing Merit (3rd)
+1040	-44.Rich (1st)
+1041	-45.Rich (2nd)
+1042	-46.Plain Version
+1043	-47.With Nandiya
+1044	-48.With Bhaddiya
+1045	-49.With Mahānāma
+1046	-50.Factors
+1047	-51.With Verses
+1048	-52.One Who Completed the Rains
+1049	-53.With Dhammadinna
+1050	-54.Sick
+1051	-55.The Fruit of Stream-Entry
+1052	-56.The Fruit of Once-Return
+1053	-57.The Fruit of Non-Return
+1054	-58.The Fruit of Perfection
+1055	-59.The Getting of Wisdom
+1056	-60.The Growth of Wisdom
+1057	-61.The Increase of Wisdom
+1058	-62.Great Wisdom
+1059	-63.Widespread Wisdom
+1060	-64.Abundant Wisdom
+1061	-65.Deep Wisdom
+1062	-66.Extraordinary Wisdom
+1063	-67.Vast Wisdom
+1064	-68.Much Wisdom
+1065	-69.Fast Wisdom
+1066	-70.Light Wisdom
+1067	-71.Laughing Wisdom
+1068	-72.Swift Wisdom
+1069	-73.Sharp Wisdom
+1070	-74.Penetrating Wisdom
+1071	56.Absorption-1.Immersion
+1072	-2.Retreat
+1073	-3.A Gentleman (1st)
+1074	-4.A Gentleman (2nd)
+1075	-5.Ascetics and Brahmins (1st)
+1076	-6.Ascetics and Brahmins (2nd)
+1077	-7.Thoughts
+1078	-8.Thought
+1079	-9.Arguments
+1080	-10.Unworthy Talk
+1081	-11.Rolling Forth the Wheel of Dhamma
+1082	-12.The Realized Ones
+1083	-13.Aggregates
+1084	-14.Interior Sense Fields
+1085	-15.Remembering (1st)
+1086	-16.Remembering (2nd)
+1087	-17.Ignorance
+1088	-18.Knowledge
+1089	-19.Expressions
+1090	-20.Real
+1091	-21.At the Village of Koṭi (1st)
+1092	-22.At the Village of Koṭi (2nd)
+1093	-23.The Fully Awakened Buddha
+1094	-24.The Perfected Ones
+1095	-25.The Ending of Defilements
+1096	-26.Friends
+1097	-27.Real
+1098	-28.The World
+1099	-29.Should Be Completely Understood
+1100	-30.With Gavampati
+1101	-31.In a Rosewood Forest
+1102	-32.Acacia Leaves
+1103	-33.A Stick
+1104	-34.Clothes
+1105	-35.A Hundred Spears
+1106	-36.Living Creatures
+1107	-37.The Simile of the Sun (1st)
+1108	-38.The Simile of the Sun (2nd)
+1109	-39.A Boundary Pillar
+1110	-40.Looking For a Debate
+1111	-41.Speculation About the World
+1112	-42.A Cliff
+1113	-43.The Mighty Fever
+1114	-44.A Bungalow
+1115	-45.Splitting Hairs
+1116	-46.Darkness
+1117	-47.A Yoke With a Hole (1st)
+1118	-48.A Yoke With a Hole (2nd)
+1119	-49.Sineru, King of Mountains (1st)
+1120	-50.Sineru, King of Mountains (2nd)
+1121	-51.A Fingernail
+1122	-52.A Lotus Pond
+1123	-53.Where the Waters Flow Together (1st)
+1124	-54.Where the Waters Flow Together (2nd)
+1125	-55.The Earth (1st)
+1126	-56.The Earth (2nd)
+1127	-57.The Ocean (1st)
+1128	-58.The Ocean (2nd)
+1129	-59.A Mountain (1st)
+1130	-60.A Mountain (2nd)
+1131	-61.Not Human
+1132	-62.In the Borderlands
+1133	-63.Wisdom
+1134	-64.Alcohol and Drugs
+1135	-65.Born in Water
+1136	-66.Respect Mother
+1137	-67.Respect Father
+1138	-68.Respect Ascetics
+1139	-69.Respect Brahmins
+1140	-70.Honor the Elders
+1141	-71.Killing Living Creatures
+1142	-72.Stealing
+1143	-73.Sexual Misconduct
+1144	-74.Lying
+1145	-75.Divisive Speech
+1146	-76.Harsh Speech
+1147	-77.Nonsense
+1148	-78.Plants
+1149	-79.Food at the Wrong Time
+1150	-80.Perfumes and Makeup
+1151	-81.Dancing and Singing
+1152	-82.High Beds
+1153	-83.Gold and Money
+1154	-84.Raw Grain
+1155	-85.Raw Meat
+1156	-86.Women and Girls
+1157	-87.Bondservants
+1158	-88.Goats and Sheep
+1159	-89.Chickens and Pigs
+1160	-90.Elephants and Cows
+1161	-91.Fields and Land
+1162	-92.Buying and Selling
+1163	-93.Errands
+1164	-94.False Weights
+1165	-95.Bribery
+1166-1171	-96–101.Mutilation, Etc.
+1172	-102.Passing Away as Humans and Reborn in Hell
+1173	-103.Passing Away as Humans and Reborn as Animals
+1174	-104.Passing Away as Humans and Reborn as Ghosts
+1175-1177	-105–107.Passing Away as Humans and Reborn as Gods
+1178-1180	-108–110.Passing Away as Gods and Reborn as Gods
+1181-1183	-111–113.Dying as Gods and Reborn as Humans
+1184-1186	-114–116.Dying in Hell and Reborn as Humans
+1187-1189	-117–119.Dying in Hell and Reborn as Gods
+1190-1192	-120–122.Dying as Animals and Reborn as Humans
+1193-1195	-123–125.Dying as Animals and Reborn as Gods
+1196-1198	-126–128.Dying as Ghosts and Reborn as Humans
+1199-1200	-129–130.Dying as Ghosts and Reborn as Gods
+1201	-131.Dying as Ghosts and Reborn as Ghosts

@@ -1,0 +1,246 @@
+1	12.Causation-1.Dependent Origination
+2	-2.Analysis
+3	-3.Practice
+4	-4.About Vipassī
+5	-5.Sikhī
+6	-6.Vessabhū
+7	-7.Kakusandha
+8	-8.Koṇāgamana
+9	-9.Kassapa
+10	-10.Gotama
+11	-11.Fuel
+12	-12.Phagguna of the Top-Knot
+13	-13.Ascetics and Brahmins
+14	-14.Ascetics and Brahmins (2nd)
+15	-15.Kaccānagotta
+16	-16.A Dhamma Speaker
+17	-17.With Kassapa, the Naked Ascetic
+18	-18.With Timbaruka
+19	-19.The Astute and the Foolish
+20	-20.Conditions
+21	-21.The Ten Powers
+22	-22.The Ten Powers (2nd)
+23	-23.Vital Conditions
+24	-24.Followers of Other Paths
+25	-25.With Bhūmija
+26	-26.With Upavāṇa
+27	-27.Conditions
+28	-28.A Mendicant
+29	-29.Ascetics and Brahmins
+30	-30.Ascetics and Brahmins (2nd)
+31	-31.What Has Come to Be
+32	-32.With Kaḷāra the Aristocrat
+33	-33.Grounds for Knowledge
+34	-34.Grounds for Knowledge (2nd)
+35	-35.Ignorance is a Condition
+36	-36.Ignorance is a Condition (2nd)
+37	-37.Not Yours
+38	-38.Intention
+39	-39.Intention (2nd)
+40	-40.Intention (3rd)
+41	-41.Dangers and Threats
+42	-42.Dangers and Threats (2nd)
+43	-43.Suffering
+44	-44.The World
+45	-45.At Nādika
+46	-46.A Certain Brahmin
+47	-47.Jāṇussoṇi
+48	-48.A Cosmologist
+49	-49.A Noble Disciple
+50	-50.A Noble Disciple (2nd)
+51	-51.A Full Inquiry
+52	-52.Grasping
+53	-53.Fetters
+54	-54.Fetters (2nd)
+55	-55.A Great Tree
+56	-56.A Great Tree (2nd)
+57	-57.A Sapling
+58	-58.Name and Form
+59	-59.Consciousness
+60	-60.Sources
+61	-61.Uneducated
+62	-62.Uneducated (2nd)
+63	-63.A Child’s Flesh
+64	-64.If There Is Desire
+65	-65.The City
+66	-66.Self-examination
+67	-67.Bundles of Reeds
+68	-68.At Kosambī
+69	-69.Surge
+70	-70.The Wanderer Susīma
+71	-71.Old Age and Death
+72	-72–81.A Set of Ten on Rebirth, Etc.
+73	-82.The Teacher
+74	13.Breakthrough-1.A Fingernail
+75	-2.A Lotus Pond
+76	-3.Where the Waters Flow Together
+77	-4.Where the Waters Flow Together (2nd)
+78	-5.The Earth
+79	-6.The Earth (2nd)
+80	-7.The Ocean
+81	-8.The Ocean (2nd)
+82	-9.A Mountain
+83	-10.A Mountain (2nd)
+84	-11.A Mountain (3rd)
+85	14.Elements-1.Diversity of Elements
+86	-2.Diversity of Contacts
+87	-3.Not Diversity of Contacts
+88	-4.Diversity of Feelings
+89	-5.Diversity of Feelings (2nd)
+90	-6.External Diversity of Elements
+91	-7.Diversity of Perceptions
+92	-8.No Diversity of Searches
+93	-9.Diversity of Gains
+94	-10.No Diversity of Gains
+95	-11.Seven Elements
+96	-12.With a Cause
+97	-13.In the Brick Hall
+98	-14.Bad Attitudes
+99	-15.Walking Together
+100	-16.With Verses
+101	-17.Faithless
+102	-18.Beginning With the Faithless
+103	-19.Beginning With the Shameless
+104	-20.Beginning With Imprudence
+105	-21.Beginning With the Uneducated
+106	-22.Beginning With the Lazy
+107	-23.Lacking Immersion
+108	-24.Unethical
+109	-25.The Five Precepts
+110	-26.Seven Ways of Performing Deeds
+111	-27.Ten Ways of Performing Deeds
+112	-28.The Eightfold Path
+113	-29.Ten Factored Path
+114	-30.Four Elements
+115	-31.Before Awakening
+116	-32.In Search of Gratification
+117	-33.If There Was No
+118	-34.Exclusively Painful
+119	-35.Taking Pleasure
+120	-36.Arising
+121	-37.Ascetics and Brahmins
+122	-38.Ascetics and Brahmins (2nd)
+123	-39.Ascetics and Brahmins (3rd)
+124	15.Unknowable Beginning-1.Grass and Sticks
+125	-2.The Earth
+126	-3.Tears
+127	-4.Mother’s Milk
+128	-5.A Mountain
+129	-6.A Mustard Seed
+130	-7.Disciples
+131	-8.The Ganges
+132	-9.A Stick
+133	-10.A Single Person
+134	-11.In a Sorry State
+135	-12.In a Good Way
+136	-13.Thirty Mendicants
+137	-14.Mother
+138	-15.Father
+139	-16.Brother
+140	-17.Sister
+141	-18.Son
+142	-19.Daughter
+143	-20.Mount Vepulla
+144	16.Kassapa-1.Content
+145	-2.Imprudent
+146	-3.Like the Moon
+147	-4.Visiting Families
+148	-5.Old Age
+149	-6.Advice
+150	-7.Advice (2nd)
+151	-8.Advice (3rd)
+152	-9.Absorptions and Insights
+153	-10.The Nuns’ Quarters
+154	-11.Robes
+155	-12.The Realized One After Death
+156	-13.The Counterfeit of the True Teaching
+157	17.Gains and Honor-1.Brutal
+158	-2.A Hook
+159	-3.A Turtle
+160	-4.A Fleecy Sheep
+161	-5.A Dung Beetle
+162	-6.A Bolt of Lightning
+163	-7.A Poisoned Arrow
+164	-8.A Jackal
+165	-9.Gale-force Winds
+166	-10.With Verses
+167	-11.A Golden Bowl
+168	-12.A Silver Bowl
+169	-13–20.A Gold Coin, Etc.
+170	-21.A Female
+171	-22.The Finest Lady in the Land
+172	-23.An Only Son
+173	-24.An Only Daughter
+174	-25.Ascetics and Brahmins
+175	-26.Ascetics and Brahmins (2nd)
+176	-27.Ascetics and Brahmins (3rd)
+177	-28.Skin
+178	-29.A Rope
+179	-30.A Mendicant With Defilements Ended
+180	-31.Schism
+181	-32.Skillful Root
+182	-33.Skillful Quality
+183	-34.Bright Quality
+184	-35.Shortly After He Left
+185	-36.Five Hundred Carts
+186	-37.Mother
+187	-38–43.Father, Etc.
+188	18.Rāhula-1.The Eye, Etc.
+189	-2.Sights, Etc.
+190	-3.Consciousness
+191	-4.Contact
+192	-5.Feeling
+193	-6.Perceptions
+194	-7.Intention
+195	-8.Craving
+196	-9.Elements
+197	-10.The Aggregates
+198	-11.The Eye, Etc.
+199	-12–20.The Nine Discourses on Sights, Etc.
+200	-21.Tendency
+201	-22.Rid of Conceit
+202	19.Lakkhaṇa-1.A Skeleton
+203	-2.A Piece of Meat
+204	-3.A Piece of Flesh
+205	-4.A Flayed Man
+206	-5.Sword Hairs
+207	-6.Spear Hairs
+208	-7.Arrow Hairs
+209	-8.Needle Hairs
+210	-9.Needle Hairs (2nd)
+211	-10.Pot Balls
+212	-11.Over His Head
+213	-12.A Dung Eater
+214	-13.A Flayed Woman
+215	-14.A Fishwife
+216	-15.A Sweltering Woman
+217	-16.A Headless Trunk
+218	-17.A Bad Monk
+219	-18.A Bad Nun
+220	-19.A Bad Trainee Nun
+221	-20.A Bad Novice Monk
+222	-21.A Bad Novice Nun
+223	20.Similes-1.A Roof Peak
+224	-2.A Fingernail
+225	-3.Families
+226	-4.Rice Pots
+227	-5.A Spear
+228	-6.The Archers
+229	-7.The Drum Peg
+230	-8.Wood Blocks
+231	-9.A Bull Elephant
+232	-10.A Cat
+233	-11.A Jackal
+234	-12.A Jackal (2nd)
+235	21.Monks-1.With Kolita
+236	-2.With Upatissa
+237	-3.A Mound of Salt
+238	-4.A Junior Mendicant
+239	-5.With Sujāta
+240	-6.With Lakuṇṭaka Bhaddiya
+241	-7.With Visākha, Pañcāli’s Son
+242	-8.With Nanda
+243	-9.With Tissa
+244	-10.A Mendicant Named Senior
+245	-11.With Mahākappina
+246	-12.Companions

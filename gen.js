@@ -42,10 +42,12 @@ const json2txt=json=>{
 	json=json.replace(/\r?\n\}/g,'');
 	return json.trim();
 }
-
+const paranames=[];
 const dobook=(bookcontent,{fn,lang,comments,references,idarr})=>{
+	
 	const lines=json2txt(bookcontent).split(/\r?\n/);
     const output=[];
+	let prevline='';
     lines.forEach(line=>{
 		const arr=line.split("|");
 		let id=arr[0], text=arr[1];
@@ -64,9 +66,13 @@ const dobook=(bookcontent,{fn,lang,comments,references,idarr})=>{
 			PN='\t'+paranum;
 		} else PN='';
 		idarr&&idarr.push(id+PN);
-		if (id=='mn52:3.1') debugger
+		const at2=prevline.indexOf('|');
+		if (paranum && at2>0 &&prevline) {
+			if (parseInt( prevline.substr( at2+1)) || prevline.substr(0,2)=='mn') {
+				paranames.push(paranum+'\t'+prevline.substr(at2+1));
+			}
+		}
         if (extraseg[id]) {
-            
             const {pn}=extraseg[id];
             let at=text.indexOf( extraseg[id][lang]);
             if (at==-1) {
@@ -79,6 +85,7 @@ const dobook=(bookcontent,{fn,lang,comments,references,idarr})=>{
         } else {
             output.push((paranum?paranum+'|':'')+text+(comments&&comments[id]?"|||"+comments[id]:""));
         }
+		prevline=line;
     });
     
     let ppn=0;
@@ -209,6 +216,10 @@ const writeresult=(bookname,content,idarr,{lang,filter,writetodisk=false})=>{
     
     
 	if (writetodisk) {
+		if (paranames.length) {
+			fs.writeFileSync(lang+'-paranames/'+bookname+'.orig.txt',paranames.join('\n'),'utf8')
+			paranames.length=0;	
+		}
 		fs.writeFileSync(lang+'-books/'+bookname+'.txt',content,'utf8');
 		if (lang=='pli') fs.writeFileSync('pli.id/'+bookname+'.js','module.exports=`'+idarr.join('\n')+'`','utf8');
     }

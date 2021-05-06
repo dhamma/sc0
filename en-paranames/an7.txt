@@ -1,0 +1,101 @@
+1	1.Pleasing (1st)
+2	2.Pleasing (2nd)
+3	3.Powers in Brief
+4	4.Powers in Detail
+5	5.Wealth in Brief
+6	6.Wealth in Detail
+7	7.With Ugga
+8	8.Fetters
+9	9.Giving Up
+10	10.Stinginess
+11	11.Underlying Tendencies (1st)
+12	12.Underlying Tendencies (2nd)
+13	13.A Family
+14	14.Persons
+15	15.A Simile With Water
+16	16.Observing Impermanence
+17	17.Observing Suffering
+18	18.Observing Not-self
+19	19.Extinguishment
+20	20.Qualifications for Graduation
+21	21.At Sārandada
+22	22.With Vassakāra
+23	23.Non-Decline for Mendicants (1st)
+24	24.Non-Decline for Mendicants (2nd)
+25	25.Non-Decline for Mendicants (3rd)
+26	26.Awakening Factors
+27	27.Perceptions
+28	28.Non-decline for a Mendicant Trainee
+29	29.Non-decline for a Lay Follower
+30	30.Failures for a Lay Follower
+31	31.Downfalls for a Lay Follower
+32	32.Respect for Diligence
+33	33.Respect for Conscience
+34	34.Easy to Admonish (1st)
+35	35.Easy to Admonish (2nd)
+36	36.A Friend (1st)
+37	37.A Friend (2nd)
+38	38.Textual Analysis (1st)
+39	39.Textual Analysis (2nd)
+40	40.Mastery of the Mind (1st)
+41	41.Mastery of the Mind (2nd)
+42	42.Graduation (1st)
+43	43.Graduation (2nd)
+44	44.Planes of Consciousness
+45	45.Prerequisites for Immersion
+46	46.Fires (1st)
+47	47.Fires (2nd)
+48	48.Perceptions in Brief
+49	49.Perceptions in Detail
+50	50.Sex
+51	51.Bound and Unbound
+52	52.A Very Fruitful Gift
+53	53.Nanda’s Mother
+54	54.The Undeclared Points
+55	55.Places People Are Reborn
+56	56.Tissa the Brahmā
+57	57.General Sīha
+58	58.Nothing to Hide
+59	59.With Kimbila
+60	60.Seven Qualities
+61	61.Nodding Off
+62	62.Don’t Fear Good Deeds
+63	63.Kinds of Wives
+64	64.Irritable
+65	65.Conscience and Prudence
+66	66.The Seven Suns
+67	67.The Simile of the Citadel
+68	68.One Who Knows the Teachings
+69	69.The Shady Orchid Tree
+70	70.Honor
+71	71.Committed to Development
+72	72.The Simile of the Bonfire
+73	73.About Sunetta
+74	74.About Araka
+75	75.An Expert in the Monastic Law (1st)
+76	76.An Expert in the Monastic Law (2nd)
+77	77.An Expert in the Monastic Law (3rd)
+78	78.An Expert in the Monastic Law (4th)
+79	79.Shines as an Expert in the Monastic Law (1st)
+80	80.Shines as an Expert in the Monastic Law (2nd)
+81	81.Shines as an Expert in the Monastic Law (3rd)
+82	82.Shines as an Expert in the Monastic Law (4th)
+83	83.The Teacher’s Instructions
+84	84.Settlement of Disciplinary Issues
+85	85.A Mendicant
+86	86.An Ascetic
+87	87.Brahmin
+88	88.Scholar
+89	89.Bathed
+90	90.A Knowledge Master
+91	91.A Noble One
+92	92.A Perfected One
+93	93.Bad Qualities
+94	94.Good Qualities
+95	95
+96-622	96–614
+623	615
+624	616
+625	617
+626-652	618–644
+653-1132	645–1124

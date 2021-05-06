@@ -1,0 +1,50 @@
+1	51.With Kandaraka
+17	52.The Man From the City of Aṭṭhaka
+22	53.A Trainee
+31	54.With Potaliya the Wanderer
+51	55.With Jīvaka
+56	56.With Upāli
+78	57.The Ascetic Who Behaved Like a Dog
+83	58.With Prince Abhaya
+88	59.The Many Kinds of Feeling
+92	60.Guaranteed
+107	61.Advice to Rāhula at Ambalaṭṭhika
+113	62.The Longer Advice to Rāhula
+122	63.The Shorter Discourse With Māluṅkya
+129	64.The Longer Discourse With Māluṅkya
+134	65.With Bhaddāli
+148	66.The Simile of the Quail
+157	67.At Cātumā
+166	68.At Naḷakapāna
+173	69.With Gulissāni
+174	70.At Kīṭāgiri
+185	71.To Vacchagotta on the Three Knowledges
+187	72.With Vacchagotta on Fire
+193	73.The Longer Discourse With Vacchagotta
+201	74.With Dīghanakha
+207	75.With Māgaṇḍiya
+223	76.With Sandaka
+237	77.The Longer Discourse with Sakuludāyī
+260	78.With Uggāhamāna Samaṇamuṇḍika
+269	79.The Shorter Discourse With Sakuludāyī
+278	80.With Vekhanasa
+282	81.With Ghaṭikāra
+293	82.With Raṭṭhapāla
+308	83.About King Makhādeva
+317	84.At Madhurā
+324	85.With Prince Bodhi
+347	86.With Aṅgulimāla
+353	87.Born From the Beloved
+358	88.The Imported Cloth
+364	89.Shrines to the Teaching
+375	90.At Kaṇṇakatthala
+383	91.With Brahmāyu
+396	92.With Sela
+401	93.With Assalāyana
+412	94.With Ghoṭamukha
+422	95.With Caṅkī
+436	96.With Esukārī
+445	97.With Dhanañjāni
+454	98.With Vāseṭṭha
+462	99.With Subha
+473	100.With Saṅgārava

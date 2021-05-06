@@ -1,0 +1,28 @@
+1	Punishments-Faults
+2	-Endeavor
+3	-Mortifying
+4	-Not Mortifying
+5	-Learned for Myself
+6	-Fetters
+7	-Dark
+8	-Bright
+9	-Conduct
+10	-Entering the Rainy Season
+11	Issues
+22	Fools
+33	Peaceful Mind
+43	Assemblies
+52	Persons
+65	Happiness
+78	With a Foundation
+88	Things
+99	Fools
+119	Hopes That Are Hard to Give Up
+131	Aspiration
+142	Giving
+152	Welcome
+164	Attainment
+181	Abbreviated Texts Beginning with Anger
+191-200	Abbreviated Texts Beginning with the Unskillful
+201	Abbreviated Texts Beginning with the Training
+231	Abbreviated Texts Beginning with Greed

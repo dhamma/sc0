@@ -1,0 +1,138 @@
+1	24.About Pāṭikaputta-1.On Sunakkhatta
+7	-2.On Korakkhattiya
+11	-3.On the Naked Ascetic Kaḷāramaṭṭaka
+15	-4.On the Naked Ascetic Pāṭikaputta
+20	-5.On Demonstrations of Psychic Power
+36	-6.On Describing the Origin of the World
+49	25.The Lion’s Roar at Udumbarikā’s Monastery-1.On the Wanderer Nigrodha
+55	-2.Mortification in Disgust of Sin
+58	-2.1.Defects
+64	-2.2.On Reaching the Shoots
+70	-2.3.On Reaching the Bark
+72	-2.4.On Reaching the Softwood
+73	-3.On Reaching the Heartwood
+75	-4.Nigrodha Feels Depressed
+77	-5.The Culmination of the Spiritual Path
+78	-6.The Wanderers Feel Depressed
+80	26.The Wheel-Turning Monarch-1.Taking Refuge in Oneself
+81	-2.King Daḷhanemi
+84	-2.1.The Noble Duties of a Wheel-Turning Monarch
+85	-2.2.The Wheel-Treasure Appears
+88	-3.On Subsequent Wheel-Turning Monarchs
+91	-4.On the Period of Decline
+103	-5.When People Live for Ten Years
+105	-6.The Period of Growth
+106	-7.The Time of King Saṅkha
+107	-8.The Arising of the Buddha Metteyya
+110	-9.On Long Life and Beauty for Mendicants
+111	27.The Origin of the World
+115	-1.Purification in the Four Castes
+120	-2.Solid Nectar Appears
+121	-3.The Moon and Sun Appear
+123	-4.Ground-Sprouts
+124	-5.Bursting Pods
+125	-6.Ripe Untilled Rice
+126	-7.Gender Appears
+127	-8.Sexual Intercourse
+128	-9.Dividing the Fields
+130	-10.The Elected King
+132	-11.The Circle of Brahmins
+133	-12.The Circle of Merchants
+134	-13.The Circle of Workers
+136	-14.On Bad Conduct
+138	-15.The Qualities That Lead to Awakening
+141	28.Inspiring Confidence-1.Sāriputta’s Lion’s Roar
+145	-1.1.Teaching Skillful Qualities
+146	-1.2.Describing the Sense Fields
+147	-1.3.The Conception of the Embryo
+148	-1.4.Ways of Revealing
+149	-1.5.Attainments of Vision
+150	-1.6.Descriptions of Individuals
+151	-1.7.Kinds of Striving
+152	-1.8.Ways of Practice
+153	-1.9.Behavior in Speech
+154	-1.10.Responsiveness to Instruction
+155	-1.11.The Knowledge and Freedom of Others
+156	-1.12.Eternalism
+157	-1.13.Recollecting Past Lives
+158	-1.14.Death and Rebirth
+159	-1.15.Psychic Powers
+160	-1.16.The Four Absorptions
+161	-1.17.On Being Questioned
+162	-2.Incredible and Amazing
+164	29.An Impressive Discourse
+166	-1.The Teaching of the Unawakened
+168	-2.The Teaching of the Awakened
+170	-3.When Disciples Have Regrets
+171	-4.When Disciples Have No Regrets
+172	-5.On the Incomplete Spiritual Path, Etc.
+177	-6.Teachings Should be Recited in Concert
+178	-7.Reaching Agreement
+182	-8.The Reasons for Allowing Requisites
+183	-9.Indulgence in Pleasure
+185	-10.The Benefits of Indulgence in Pleasure
+186	-11.Things Impossible for the Perfected
+187	-12.Questions and Answers
+189	-13.The Undeclared Points
+190	-14.The Declared Points
+191	-15.Views of the Past
+194	-16.Views of the Future
+198	30.The Marks of a Great Man
+201	-1.Well-Planted Feet
+204	-2.Wheels on the Feet
+206	-3–5.Projecting Heels, Etc.
+208	-6.Seven Bulges
+210	-7–8.Tender and Clinging Hands
+212	-9–10.Arched Feet and Upright Hair
+214	-11.Antelope Calves
+216	-12.Delicate Skin
+218	-13.Golden Skin
+220	-14.Retracted Privates
+222	-15–16.Equal Proportions and Touching the Knees
+224	-17–19.A Lion’s Chest, Etc.
+226	-20.Excellent Sense of Taste
+228	-21–22.Deep Blue Eyes
+230	-23.Head Like a Turban
+232	-24–25.One Hair Per Pore, and a Tuft
+234	-26–27.Forty Gapless Teeth
+236	-28–29.A Large Tongue and the Voice of Brahmā
+238	-30.A Lion-Like Jaw
+240	-31–32.Even and White Teeth
+242	31.Advice to Sigālaka
+244	-1.The Six Quarters
+245	-2.Four Corrupt Deeds
+246	-3.Four Grounds
+247	-4.Six Drains on Wealth
+248	-5.Six Drawbacks of Drinking
+249	-6.Six Drawbacks of Roaming the Streets at Night
+250	-7.Six Drawbacks of Festivals
+251	-8.Six Drawbacks of Gambling
+252	-9.Six Drawbacks of Bad Friends
+253	-10.Six Drawbacks of Laziness
+254	-11.Fake Friends
+260	-12.Good-Hearted Friends
+266	-13.Covering the Six Quarters
+275	32.The Āṭānāṭiya Protection-1.The First Recitation Section
+285	-2.The Second Recitation Section
+296	33.Reciting in Concert
+303	-1.Ones
+304	-2.Twos
+305	-3.Threes
+306	-4.Fours
+315	-5.Fives
+323	-6.Sixes
+330	-7.Sevens
+333	-8.Eights
+340	-9.Nines
+345	-10.Tens
+350	34.Up to Ten
+351	-1.Groups of One
+352	-2.Groups of Two
+353	-3.Groups of Three
+354	-4.Groups of Four
+355	-5.Groups of Five
+356	-6.Groups of Six
+357	-7.Groups of Seven
+358	-8.Groups of Eight
+359	-9.Groups of Nine
+360	-10.Groups of Ten
