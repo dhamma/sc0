@@ -13,15 +13,16 @@ const booknames=['dn1','dn2','dn3',
 ]
 const getParaname=bk=>{
 	const out=[];
-	let ppn=0;
+	let ppn=-1.;
 	const fn=paranames_folder+bk+'.txt';
 	if (fs.existsSync(fn)) {
 		const lines=fs.readFileSync(fn,'utf8').split(/\r?\n/);
 		lines.forEach(line=>{
 			let [pn,text]=line.split('\t');
 			pn=parseInt(pn);
+			if (out[pn]) console.log('warning repeated pn',pn,bk,line);
 			out[pn]=text;
-			if (ppn>=pn) console.log('error pn',bk,line)
+			if (ppn>=pn) console.log('error pn',bk,line,ppn,pn)
 		})
 	}
 	for (let i=0;i<out.length;i++) {

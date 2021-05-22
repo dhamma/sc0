@@ -1,3 +1,4 @@
+0	Numbered Discourses(1)
 1	Sights
 11	Giving Up the Hindrances
 21	Useless
@@ -29,14 +30,3 @@
 382	Another Chapter on a Finger Snap
 563	Mindfulness of the Body
 600	The Deathless
-601	617
-602	618
-603	619
-604	620
-605	621
-606	622
-607	623
-608	624
-609	625
-610	626
-611	627

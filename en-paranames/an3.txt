@@ -1,158 +1,156 @@
-1	1.Perils
-2	2.Characteristics
-3	3.Thinking
-4	4.Mistakes
-5	5.Improper
-6	6.Unskillful
-7	7.Blameworthy
-8	8.Hurtful
-9	9.Broken
-10	10.Stains
-11	11.Well-known
-12	12.Commemoration
-13	13.Hopes
-14	14.The Wheel-turning Monarch
-15	15.About Pacetana
-16	16.Guaranteed
-17	17.Hurting Yourself
-18	18.The Realm of the Gods
-19	19.A Shopkeeper (1st)
-20	20.A Shopkeeper (2nd)
-21	21.With Saviṭṭha
-22	22.Patients
-23	23.Choices
-24	24.Very Helpful
-25	25.Like Diamond
-26	26.Associates
-27	27.Offensive
-28	28.Speech like Dung
-29	29.Blind
-30	30.Upside-down
-31	31.With Brahmā
-32	32.With Ānanda
-33	33.With Sāriputta
-34	34.Sources
-35	35.With Hatthaka
-36	36.Messengers of the Gods
-37	37.The Four Great Kings (1st)
-38	38.The Four Great Kings (2nd)
-39	39.A Delicate Lifestyle
-40	40.In Charge
-41	41.Present
-42	42.Three Grounds
-43	43.Good Reasons
-44	44.When Conversation Flows
-45	45.Wise
-46	46.Ethical
-47	47.Characteristics of the Conditioned
-49	48.The King of Mountains
-50	49.Keen
-51	50.A Master Thief
-52	51.Two Brahmins (1st)
-53	52.Two Brahmins (2nd)
-54	53.A Certain Brahmin
-55	54.A Wanderer
-56	55.Extinguished
-57	56.Falling Apart
-58	57.With Vacchagotta
-59	58.With Tikaṇṇa
-60	59.With Jāṇussoṇi
-61	60.With Saṅgārava
-62	61.Sectarian Tenets
-63	62.Perils
-64	63.At Venāgapura
-65	64.With Sarabha
-66	65.With the Kālāmas of Kesamutta
-67	66.With Sāḷha and His Friend
-68	67.Topics of Discussion
-69	68.Followers of Other Paths
-70	69.Unskillful Roots
-71	70.Sabbath
-72	71.With Channa
-73	72.A Disciple of the Ājīvakas
-74	73.With Mahānāma the Sakyan
-75	74.Jains
-76	75.Support
-77	76.Continued Existence (1st)
-78	77.Continued Existence (2nd)
-79	78.Precepts and Observances
-80	79.Fragrances
-81	80.Lesser
-82	81.Ascetics
-83	82.The Donkey
-84	83.Fields
-85	84.The Vajji
-86	85.A Trainee
-87	86.Training (1st)
-88	87.Training (2nd)
-89	88.Training (3rd)
-90	89.Three Trainings (1st)
-91	90.Three Trainings (2nd)
-92	91.At Paṅkadhā
-93	92.Urgent
-94	93.Seclusion
-95	94.Springtime
-96	95.Assemblies
-97	96.The Thoroughbred (1st)
-98	97.The Thoroughbred (2nd)
-99	98.The Thoroughbred (3rd)
-100	99.Jute
-101	100.A Lump of Salt
-102	101.A Panner
-103	102.Foundations
-104	103.Before Awakening
-105	104.Gratification (1st)
-106	105.Gratification (2nd)
-107	106.Ascetics and Brahmins
-108	107.Wailing
-109	108.Satisfaction
-110	109.Unprotected
-111	110.Fallen
-112	111.Sources (1st)
-113	112.Sources (2nd)
-114	113.Bound for Loss
-115	114.Rare
-116	115.Immeasurable
-117	116.Imperturbable
-118	117.Failures and Accomplishments
-119	118.Loaded Dice
-120	119.Action
-121	120.Purity (1st)
-122	121.Purity (2nd)
-123	122.Sagacity
-124	123.At Kusināra
-125	124.Arguments
-126	125.The Gotamaka Shrine
-127	126.Bharaṇḍu Kālāma
-128	127.With Hatthaka
-129	128.Bitter
-130	129.With Anuruddha (1st)
-131	130.With Anuruddha (2nd)
-132	131.Under Cover
-133	132.Etchings
-134	133.A Warrior
-135	134.Assemblies
-136	135.A Friend
-137	136.Arising
-138	137.A Hair Blanket
-139	138.Accomplishment
-140	139.Growth
-141	140.A Wild Colt
-142	141.Excellent Horses
-143	142.The Thoroughbred
-144	143.At the Peacocks’ Feeding Ground (1st)
-145	144.At the Peacocks’ Feeding Ground (2nd)
-146	145.At the Peacocks’ Feeding Ground (3rd)
-147	146.Unskillful
-148	147.Blameworthy
-149	148.Unethical
-150	149.Impure
-151	150.Broken (1st)
-152	151.Broken (2nd)
-153	152.Broken (3rd)
-154	153.Broken (4th)
-155	154.Homage
-156	155.Morning
-157-163	156–162
-164-183	163–182
-184	183–352
+0	Numbered Discourses(3)
+1	Perils
+2	Characteristics
+3	Thinking
+4	Mistakes
+5	Improper
+6	Unskillful
+7	Blameworthy
+8	Hurtful
+9	Broken
+10	Stains
+11	Well-known
+12	Commemoration
+13	Hopes
+14	The Wheel-turning Monarch
+15	About Pacetana
+16	Guaranteed
+17	Hurting Yourself
+18	The Realm of the Gods
+19	A Shopkeeper (1st)
+20	A Shopkeeper (2nd)
+21	With Saviṭṭha
+22	Patients
+23	Choices
+24	Very Helpful
+25	Like Diamond
+26	Associates
+27	Offensive
+28	Speech like Dung
+29	Blind
+30	Upside-down
+31	With Brahmā
+32	With Ānanda
+33	With Sāriputta
+34	Sources
+35	With Hatthaka
+36	Messengers of the Gods
+37	The Four Great Kings (1st)
+38	The Four Great Kings (2nd)
+39	A Delicate Lifestyle
+40	In Charge
+41	Present
+42	Three Grounds
+43	Good Reasons
+44	When Conversation Flows
+45	Wise
+46	Ethical
+47	Characteristics of the Conditioned
+49	The King of Mountains
+50	Keen
+51	A Master Thief
+52	Two Brahmins (1st)
+53	Two Brahmins (2nd)
+54	A Certain Brahmin
+55	A Wanderer
+56	Extinguished
+57	Falling Apart
+58	With Vacchagotta
+59	With Tikaṇṇa
+60	With Jāṇussoṇi
+61	With Saṅgārava
+62	Sectarian Tenets
+63	Perils
+64	At Venāgapura
+65	With Sarabha
+66	With the Kālāmas of Kesamutta
+67	With Sāḷha and His Friend
+68	Topics of Discussion
+69	Followers of Other Paths
+70	Unskillful Roots
+71	Sabbath
+72	With Channa
+73	A Disciple of the Ājīvakas
+74	With Mahānāma the Sakyan
+75	Jains
+76	Support
+77	Continued Existence (1st)
+78	Continued Existence (2nd)
+79	Precepts and Observances
+80	Fragrances
+81	Lesser
+82	Ascetics
+83	The Donkey
+84	Fields
+85	The Vajji
+86	A Trainee
+87	Training (1st)
+88	Training (2nd)
+89	Training (3rd)
+90	Three Trainings (1st)
+91	Three Trainings (2nd)
+92	At Paṅkadhā
+93	Urgent
+94	Seclusion
+95	Springtime
+96	Assemblies
+97	The Thoroughbred (1st)
+98	The Thoroughbred (2nd)
+99	The Thoroughbred (3rd)
+100	Jute
+101	A Lump of Salt
+102	A Panner
+103	Foundations
+104	Before Awakening
+105	Gratification (1st)
+106	Gratification (2nd)
+107	Ascetics and Brahmins
+108	Wailing
+109	Satisfaction
+110	Unprotected
+111	Fallen
+112	Sources (1st)
+113	Sources (2nd)
+114	Bound for Loss
+115	Rare
+116	Immeasurable
+117	Imperturbable
+118	Failures and Accomplishments
+119	Loaded Dice
+120	Action
+121	Purity (1st)
+122	Purity (2nd)
+123	Sagacity
+124	At Kusināra
+125	Arguments
+126	The Gotamaka Shrine
+127	Bharaṇḍu Kālāma
+128	With Hatthaka
+129	Bitter
+130	With Anuruddha (1st)
+131	With Anuruddha (2nd)
+132	Under Cover
+133	Etchings
+134	A Warrior
+135	Assemblies
+136	A Friend
+137	Arising
+138	A Hair Blanket
+139	Accomplishment
+140	Growth
+141	A Wild Colt
+142	Excellent Horses
+143	The Thoroughbred
+144	At the Peacocks’ Feeding Ground (1st)
+145	At the Peacocks’ Feeding Ground (2nd)
+146	At the Peacocks’ Feeding Ground (3rd)
+147	Unskillful
+148	Blameworthy
+149	Unethical
+150	Impure
+151	Broken (1st)
+152	Broken (2nd)
+153	Broken (3rd)
+154	Broken (4th)
+155	Homage
+156	Morning

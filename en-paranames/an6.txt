@@ -1,125 +1,121 @@
-1	1.Worthy of Offerings (1st)
-2	2.Worthy of Offerings (2nd)
-3	3.Faculties
-4	4.Powers
-5	5.The Thoroughbred (1st)
-6	6.The Thoroughbred (2nd)
-7	7.The Thoroughbred (3rd)
-8	8.Unsurpassable
-9	9.Topics for Recollection
-10	10.With Mahānāma
-11	11.Warm-hearted (1st)
-12	12.Warm-hearted (2nd)
-13	13.Elements of Escape
-14	14.A Good Death
-15	15.Regret
-16	16.Nakula’s Father
-17	17.Sleep
-18	18.A Fish Dealer
-19	19.Mindfulness of Death (1st)
-20	20.Mindfulness of Death (2nd)
-21	21.At Sāma Village
-22	22.Non-decline
-23	23.Dangers
-24	24.The Himalaya
-25	25.Topics for Recollection
-26	26.With Mahākaccāna
-27	27.Proper Occasions (1st)
-28	28.Proper Occasions (2nd)
-29	29.With Udāyī
-30	30.Unsurpassable
-31	31.A Trainee
-32	32.Non-decline (1st)
-33	33.Non-decline (2nd)
-34	34.With Mahāmoggallāna
-35	35.Things That Play a Part in Realization
-36	36.Roots of Quarrels
-37	37.A Gift With Six Factors
-38	38.One’s Own Volition
-39	39.Sources
-40	40.With Kimbila
-41	41.A Tree Trunk
-42	42.With Nāgita
-43	43.The Giant
-44	44.With Migasālā
-45	45.Debt
-46	46.By Mahācunda
-47	47.Visible in This Very Life (1st)
-48	48.Visible in This Very Life (2nd)
-49	49.With Khema
-50	50.Sense Restraint
-51	51.With Ānanda
-52	52.Aristocrats
-53	53.Diligence
-54	54.About Dhammika
-55	55.With Soṇa
-56	56.With Phagguṇa
-57	57.The Six Classes of Rebirth
-58	58.Defilements
-59	59.With Dārukammika
-60	60.With Hatthisāriputta
-61	61.In the Middle
-62	62.Knowledge of the Faculties of Persons
-63	63.Penetrative
-64	64.The Lion’s Roar
-65	65.The Fruit of Non-Return
-66	66.Perfection
-67	67.Friends
-68	68.Enjoying Company
-69	69.A God
-70	70.Immersion
-71	71.Capable of Realizing
-72	72.Strength
-73	73.First Absorption (1st)
-74	74.First Absorption (2nd)
-75	75.Suffering
-76	76.Perfection
-77	77.Superhuman States
-78	78.Joy and Happiness
-79	79.Achievement
-80	80.Greatness
-81	81.Hell (1st)
-82	82.Hell (2nd)
-83	83.The Best Thing
-84	84.Day and Night
-85	85.Coolness
-86	86.Obstacles
-87	87.A Murderer
-88	88.Wanting to Listen
-89	89.Not Giving Up
-90	90.Given Up
-91	91.Can’t Give Rise
-92	92.Things That Can’t Be Done (1st)
-93	93.Things That Can’t Be Done (2nd)
-94	94.Things That Can’t Be Done (3rd)
-95	95.Things That Can’t Be Done (4th)
-96	96.Appearance
-97	97.Benefit
-98	98.Impermanence
-99	99.Suffering
-100	100.Not-Self
-101	101.Extinguished
-102	102.Transience
-103	103.With a Drawn Sword
-104	104.Non-identification
-105	105.States of Existence
-106	106.Craving
-107	107.Greed
-108	108.Bad Conduct
-109	109.Thoughts
-110	110.Perceptions
-111	111.Elements
-112	112.Gratification
-113	113.Dissatisfaction
-114	114.Contentment
-115	115.Hard to Admonish
-116	116.Restlessness
-117	117.Observing the Body
-118	118.Observing Principles, Etc.
-119	119.About Tapussa
-120-139	120–139.About Bhallika, Etc.
-140	140
-141	141
-142	142
-143-169	143–169
-170-649	170–649
+0	Numbered Discourses(6)
+1	Worthy of Offerings (1st)
+2	Worthy of Offerings (2nd)
+3	Faculties
+4	Powers
+5	The Thoroughbred (1st)
+6	The Thoroughbred (2nd)
+7	The Thoroughbred (3rd)
+8	Unsurpassable
+9	Topics for Recollection
+10	With Mahānāma
+11	Warm-hearted (1st)
+12	Warm-hearted (2nd)
+13	Elements of Escape
+14	A Good Death
+15	Regret
+16	Nakula’s Father
+17	Sleep
+18	A Fish Dealer
+19	Mindfulness of Death (1st)
+20	Mindfulness of Death (2nd)
+21	At Sāma Village
+22	Non-decline
+23	Dangers
+24	The Himalaya
+25	Topics for Recollection
+26	With Mahākaccāna
+27	Proper Occasions (1st)
+28	Proper Occasions (2nd)
+29	With Udāyī
+30	Unsurpassable
+31	A Trainee
+32	Non-decline (1st)
+33	Non-decline (2nd)
+34	With Mahāmoggallāna
+35	Things That Play a Part in Realization
+36	Roots of Quarrels
+37	A Gift With Six Factors
+38	One’s Own Volition
+39	Sources
+40	With Kimbila
+41	A Tree Trunk
+42	With Nāgita
+43	The Giant
+44	With Migasālā
+45	Debt
+46	By Mahācunda
+47	Visible in This Very Life (1st)
+48	Visible in This Very Life (2nd)
+49	With Khema
+50	Sense Restraint
+51	With Ānanda
+52	Aristocrats
+53	Diligence
+54	About Dhammika
+55	With Soṇa
+56	With Phagguṇa
+57	The Six Classes of Rebirth
+58	Defilements
+59	With Dārukammika
+60	With Hatthisāriputta
+61	In the Middle
+62	Knowledge of the Faculties of Persons
+63	Penetrative
+64	The Lion’s Roar
+65	The Fruit of Non-Return
+66	Perfection
+67	Friends
+68	Enjoying Company
+69	A God
+70	Immersion
+71	Capable of Realizing
+72	Strength
+73	First Absorption (1st)
+74	First Absorption (2nd)
+75	Suffering
+76	Perfection
+77	Superhuman States
+78	Joy and Happiness
+79	Achievement
+80	Greatness
+81	Hell (1st)
+82	Hell (2nd)
+83	The Best Thing
+84	Day and Night
+85	Coolness
+86	Obstacles
+87	A Murderer
+88	Wanting to Listen
+89	Not Giving Up
+90	Given Up
+91	Can’t Give Rise
+92	Things That Can’t Be Done (1st)
+93	Things That Can’t Be Done (2nd)
+94	Things That Can’t Be Done (3rd)
+95	Things That Can’t Be Done (4th)
+96	Appearance
+97	Benefit
+98	Impermanence
+99	Suffering
+100	Not-Self
+101	Extinguished
+102	Transience
+103	With a Drawn Sword
+104	Non-identification
+105	States of Existence
+106	Craving
+107	Greed
+108	Bad Conduct
+109	Thoughts
+110	Perceptions
+111	Elements
+112	Gratification
+113	Dissatisfaction
+114	Contentment
+115	Hard to Admonish
+116	Restlessness
+117	Observing the Body
+118	Observing Principles, Etc.
+119	About Tapussa
+120-139	About Bhallika, Etc.

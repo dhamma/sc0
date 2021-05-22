@@ -1,82 +1,79 @@
-1	1.Awakening
-2	2.Supported
-3	3.With Meghiya
-4	4.With Nandaka
-5	5.Powers
-6	6.Association
-7	7.With Sutavā the Wanderer
-8	8.With the Wanderer Sajjha
-9	9.Persons
-10	10.Worthy of Offerings to the Gods
-11	11.Sāriputta’s Lion’s Roar
-12	12.With Something Left Over
-13	13.With Koṭṭhita
-14	14.With Samiddhi
-15	15.The Simile of the Boil
-16	16.Perceptions
-17	17.Families
-18	18.The Sabbath with Nine Factors
-19	19.A Deity
-20	20.About Velāma
-21	21.In Three Particulars
-22	22.A Wild Colt
-23	23.Rooted in Craving
-24	24.Abodes of Sentient Beings
-25	25.Consolidated by Wisdom
-26	26.The Simile of the Stone Pillar
-27	27.Dangers and Threats (1st)
-28	28.Dangers and Threats (2nd)
-29	29.Grounds for Resentment
-30	30.Getting Rid of Resentment
-31	31.Progressive Cessations
-32	32.Progressive Meditations
-33	33.The Nine Progressive Meditative Attainments
-34	34.Extinguishment is Bliss
-35	35.The Simile of the Cow
-36	36.Depending on Absorption
-37	37.By Ānanda
-38	38.Brahmin Cosmologists
-39	39.The War Between the Gods and the Demons
-40	40.The Simile of the Bull Elephant in the Forest
-41	41.With the Householder Tapussa
-42	42.Cramped
-43	43.A Personal Witness
-44	44.Freed by Wisdom
-45	45.Freed Both Ways
-46	46.In This Very Life
-47	47.Extinguishment Is Visible in This Very Life
-48	48.Extinguishment
-49	49.Final Extinguishment
-50	50.Extinguishment in a Certain Respect
-51	51.Extinguishment in the Present Life
-52	52.A Safe Place
-53	53.Reaching a Safe Place
-54	54.The Deathless
-55	55.Reaching the Deathless
-56	56.A Place Without Fear
-57	57.Reaching a Place Without Fear
-58	58.Tranquility
-59	59.Progressive Tranquility
-60	60.Cessation
-61	61.Progressive Cessation
-62	62.Requirements for Perfection
-63	63.Weaknesses in Training and Mindfulness Meditation
-64	64.Hindrances
-65	65.Kinds of Sensual Stimulation
-66	66.Grasping Aggregates
-67	67.Lower Fetters
-68	68.Places of Rebirth
-69	69.Stinginess
-70	70.Higher Fetters
-71	71.Emotional Barrenness
-72	72.Emotional Shackles
-73	73.Weaknesses in Training and Effort
-74-81	74–81.Hindrances, Etc.
-82	82.Emotional Shackles
-83	83.Weaknesses in Training and the Bases of Psychic Power
-84-91	84–91.Hindrances, Etc.
-92	92.Emotional Shackles
-93	93
-94	94
-95-112	95–112
-113-432	113–432
+0	Numbered Discourses(9)
+1	Awakening
+2	Supported
+3	With Meghiya
+4	With Nandaka
+5	Powers
+6	Association
+7	With Sutavā the Wanderer
+8	With the Wanderer Sajjha
+9	Persons
+10	Worthy of Offerings to the Gods
+11	Sāriputta’s Lion’s Roar
+12	With Something Left Over
+13	With Koṭṭhita
+14	With Samiddhi
+15	The Simile of the Boil
+16	Perceptions
+17	Families
+18	The Sabbath with Nine Factors
+19	A Deity
+20	About Velāma
+21	In Three Particulars
+22	A Wild Colt
+23	Rooted in Craving
+24	Abodes of Sentient Beings
+25	Consolidated by Wisdom
+26	The Simile of the Stone Pillar
+27	Dangers and Threats (1st)
+28	Dangers and Threats (2nd)
+29	Grounds for Resentment
+30	Getting Rid of Resentment
+31	Progressive Cessations
+32	Progressive Meditations
+33	The Nine Progressive Meditative Attainments
+34	Extinguishment is Bliss
+35	The Simile of the Cow
+36	Depending on Absorption
+37	By Ānanda
+38	Brahmin Cosmologists
+39	The War Between the Gods and the Demons
+40	The Simile of the Bull Elephant in the Forest
+41	With the Householder Tapussa
+42	Cramped
+43	A Personal Witness
+44	Freed by Wisdom
+45	Freed Both Ways
+46	In This Very Life
+47	Extinguishment Is Visible in This Very Life
+48	Extinguishment
+49	Final Extinguishment
+50	Extinguishment in a Certain Respect
+51	Extinguishment in the Present Life
+52	A Safe Place
+53	Reaching a Safe Place
+54	The Deathless
+55	Reaching the Deathless
+56	A Place Without Fear
+57	Reaching a Place Without Fear
+58	Tranquility
+59	Progressive Tranquility
+60	Cessation
+61	Progressive Cessation
+62	Requirements for Perfection
+63	Weaknesses in Training and Mindfulness Meditation
+64	Hindrances
+65	Kinds of Sensual Stimulation
+66	Grasping Aggregates
+67	Lower Fetters
+68	Places of Rebirth
+69	Stinginess
+70	Higher Fetters
+71	Emotional Barrenness
+72	Emotional Shackles
+73	Weaknesses in Training and Effort
+74-81	Hindrances, Etc.
+82	Emotional Shackles
+83	Weaknesses in Training and the Bases of Psychic Power
+84-91	Hindrances, Etc.
+92	Emotional Shackles

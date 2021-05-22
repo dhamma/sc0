@@ -1,96 +1,91 @@
-1	1.The Benefits of Love
-2	2.Wisdom
-3	3.Disliked (1st)
-4	4.Disliked (2nd)
-5	5.Worldly Conditions (1st)
-6	6.Worldly Conditions (2nd)
-7	7.Devadatta’s Failure
-8	8.Uttara on Failure
-9	9.Nanda
-10	10.Trash
-11	11.At Verañja
-12	12.With Sīha
-13	13.A Thoroughbred
-14	14.A Wild Colt
-15	15.Stains
-16	16.Going on a Mission
-17	17.Catching (1st)
-18	18.Catching (2nd)
-19	19.With Pahārāda
-20	20.Sabbath
-21	21.With Ugga of Vesālī
-22	22.With Ugga of the Village of Hatthi
-23	23.With Hatthaka (1st)
-24	24.With Hatthaka (2nd)
-25	25.With Mahānāma
-26	26.With Jīvaka
-27	27.Powers (1st)
-28	28.Powers (2nd)
-29	29.Lost Opportunities
-30	30.Anuruddha and the Great Thoughts
-31	31.Giving (1st)
-32	32.Giving (2nd)
-33	33.Reasons to Give
-34	34.A Field
-35	35.Rebirth by Giving
-36	36.Grounds for Making Merit
-37	37.Gifts of a Good Person
-38	38.A Good Person
-39	39.Overflowing Merit
-40	40.The Results of Misconduct
-41	41.The Sabbath With Eight Factors, In Brief
-42	42.The Sabbath With Eight Factors, In Detail
-43	43.With Visākhā on the Sabbath
-44	44.With Vāseṭṭha on the Sabbath
-45	45.With Bojjhā on the Sabbath
-46	46.Anuruddha and the Agreeable Deities
-47	47.With Visākhā on the Loveable Gods
-48	48.With Nakula’s Mother on the Loveable Gods
-49	49.Winning in This Life (1st)
-50	50.Winning in This Life (2nd)
-51	51.With Gotamī
-52	52.An Adviser for Nuns
-53	53.Brief Advice to Gotamī
-54	54.With Dīghajāṇu
-55	55.With Ujjaya
-56	56.Danger
-57	57.Worthy of Offerings to the Gods (1st)
-58	58.Worthy of Offerings to the Gods (2nd)
-59	59.Eight People (1st)
-60	60.Eight People (2nd)
-61	61.Desire
-62	62.Good Enough
-63	63.A Teaching in Brief
-64	64.At Gāyā Head
-65	65.Dimensions of Mastery
-66	66.Liberations
-67	67.Ignoble Expressions
-68	68.Noble Expressions
-69	69.Assemblies
-70	70.Earthquakes
-71	71.Inspiring All Around (1st)
-72	72.Inspiring All Around (2nd)
-73	73.Mindfulness of Death (1st)
-74	74.Mindfulness of Death (2nd)
-75	75.Accomplishments (1st)
-76	76.Accomplishments (2nd)
-77	77.Desires
-78	78.Good Enough
-79	79.Decline
-80	80.Grounds for Laziness and Arousing Energy
-81	81.Mindfulness and Situational Awareness
-82	82.With Puṇṇiya
-83	83.Rooted
-84	84.A Master Thief
-85	85.Terms for the Realized One
-86	86.With Nāgita
-87	87.Turning the Bowl Upside Down
-88	88.A Proclamation of No Confidence
-89	89.Reconciliation
-90	90.Proper Behavior in a Case of Aggravated Misconduct
-91-116	91–117
-117	118
-118	119
-119	120
-120-146	121–147
-147-626	148–627
+0	Numbered Discourses(8)
+1	The Benefits of Love
+2	Wisdom
+3	Disliked (1st)
+4	Disliked (2nd)
+5	Worldly Conditions (1st)
+6	Worldly Conditions (2nd)
+7	Devadatta’s Failure
+8	Uttara on Failure
+9	Nanda
+10	Trash
+11	At Verañja
+12	With Sīha
+13	A Thoroughbred
+14	A Wild Colt
+15	Stains
+16	Going on a Mission
+17	Catching (1st)
+18	Catching (2nd)
+19	With Pahārāda
+20	Sabbath
+21	With Ugga of Vesālī
+22	With Ugga of the Village of Hatthi
+23	With Hatthaka (1st)
+24	With Hatthaka (2nd)
+25	With Mahānāma
+26	With Jīvaka
+27	Powers (1st)
+28	Powers (2nd)
+29	Lost Opportunities
+30	Anuruddha and the Great Thoughts
+31	Giving (1st)
+32	Giving (2nd)
+33	Reasons to Give
+34	A Field
+35	Rebirth by Giving
+36	Grounds for Making Merit
+37	Gifts of a Good Person
+38	A Good Person
+39	Overflowing Merit
+40	The Results of Misconduct
+41	The Sabbath With Eight Factors, In Brief
+42	The Sabbath With Eight Factors, In Detail
+43	With Visākhā on the Sabbath
+44	With Vāseṭṭha on the Sabbath
+45	With Bojjhā on the Sabbath
+46	Anuruddha and the Agreeable Deities
+47	With Visākhā on the Loveable Gods
+48	With Nakula’s Mother on the Loveable Gods
+49	Winning in This Life (1st)
+50	Winning in This Life (2nd)
+51	With Gotamī
+52	An Adviser for Nuns
+53	Brief Advice to Gotamī
+54	With Dīghajāṇu
+55	With Ujjaya
+56	Danger
+57	Worthy of Offerings to the Gods (1st)
+58	Worthy of Offerings to the Gods (2nd)
+59	Eight People (1st)
+60	Eight People (2nd)
+61	Desire
+62	Good Enough
+63	A Teaching in Brief
+64	At Gāyā Head
+65	Dimensions of Mastery
+66	Liberations
+67	Ignoble Expressions
+68	Noble Expressions
+69	Assemblies
+70	Earthquakes
+71	Inspiring All Around (1st)
+72	Inspiring All Around (2nd)
+73	Mindfulness of Death (1st)
+74	Mindfulness of Death (2nd)
+75	Accomplishments (1st)
+76	Accomplishments (2nd)
+77	Desires
+78	Good Enough
+79	Decline
+80	Grounds for Laziness and Arousing Energy
+81	Mindfulness and Situational Awareness
+82	With Puṇṇiya
+83	Rooted
+84	A Master Thief
+85	Terms for the Realized One
+86	With Nāgita
+87	Turning the Bowl Upside Down
+88	A Proclamation of No Confidence
+89	Reconciliation
+90	Proper Behavior in a Case of Aggravated Misconduct

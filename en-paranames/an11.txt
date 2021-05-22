@@ -1,36 +1,22 @@
-1	1.What’s the Purpose?
-2	2.Making a Wish
-3	3.Vital Conditions (1st)
-4	4.Vital Conditions (2nd)
-5	5.Vital Conditions (3rd)
-6	6.Disasters
-7	7.Percipient
-8	8.Awareness
-9	9.With Sandha
-10	10.At the Peacocks’ Feeding Ground
-11	11.With Mahānāma (1st)
-12	12.With Mahānāma (2nd)
-13	13.With Nandiya
-14	14.With Subhūti
-15	15.The Benefits of Love
-16	16.The Man From the City of Aṭṭhaka
-17	17.The Cowherd
-18	18.Immersion (1st)
-19	19.Immersion (2nd)
-20	20.Immersion (3rd)
-21	21.Immersion (4th)
-22-29	22–29
-30-69	30–69
-70-117	70–117
-118-165	118–165
-166-213	166–213
-214-261	214–261
-262-309	262–309
-310-357	310–357
-358-405	358–405
-406-453	406–453
-454-501	454–501
-502	502–981
-503	982
-504-512	983–991
-513-672	992–1151
+0	Numbered Discourses(11)
+1	What’s the Purpose?
+2	Making a Wish
+3	Vital Conditions (1st)
+4	Vital Conditions (2nd)
+5	Vital Conditions (3rd)
+6	Disasters
+7	Percipient
+8	Awareness
+9	With Sandha
+10	At the Peacocks’ Feeding Ground
+11	With Mahānāma (1st)
+12	With Mahānāma (2nd)
+13	With Nandiya
+14	With Subhūti
+15	The Benefits of Love
+16	The Man From the City of Aṭṭhaka
+17	The Cowherd
+18	Immersion (1st)
+19	Immersion (2nd)
+20	Immersion (3rd)
+21	Immersion (4th)
